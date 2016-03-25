@@ -9,16 +9,8 @@ title: List URLs
     $feedurls = 'https://raw.githubusercontent.com/indieedtech/rss-aggregator/gh-pages/_data/feed-urls.json';
 
     $.get($feedurls, function (feeds) {
+      console.log(feeds);
 
-      $.each(feeds, function(feedKey, feedEntry) {
-
-        console.log(feedEntry);
-
-        $feedName = feedEntry['name'];
-        $feedURL = feedEntry['url'];
-        console.log($feedURL);
-
-        });
       });
 
 </script>
