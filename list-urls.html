@@ -1,6 +1,6 @@
 ---
 layout: page
-title: List URLs
+title: API Security
 ---
 
 <script type="text/javascript">
@@ -9,8 +9,31 @@ title: List URLs
     $feedurls = 'https://raw.githubusercontent.com/indieedtech/rss-aggregator/gh-pages/_data/feed-urls.json';
 
     $.get($feedurls, function (feeds) {
-      console.log(feeds);
 
+      $feedsJSON = JSON.parse(feeds);
+
+      $.each($feedsJSON, function(feedKey, feedEntry) {
+
+        console.log(feedEntry);
+
+        $feedName = feedEntry['name'];
+        $feedURL = feedEntry['url'];
+        console.log($feedURL);
+        $.get($feedURL, function (feeds) {
+
+          $(feeds).find("item").each(function () {
+
+            var el = $(this);
+            $title = el.find("title").text();
+            $link = el.find("link").text();
+
+            $feedItem = '<li><a href="' + $link + '">' + $title + '</a></li>';
+
+            $('#url-list').append($feedItem);
+
+            });
+          });
+        });
       });
 
 </script>
