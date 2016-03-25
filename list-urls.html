@@ -14,11 +14,9 @@ title: API Security
 
       $.each($feedsJSON, function(feedKey, feedEntry) {
 
-        console.log(feedEntry);
-
         $feedName = feedEntry['name'];
         $feedURL = feedEntry['url'];
-        console.log($feedURL);
+
         $.get($feedURL, function (feeds) {
 
           $(feeds).find("item").each(function () {
@@ -26,8 +24,9 @@ title: API Security
             var el = $(this);
             $title = el.find("title").text();
             $link = el.find("link").text();
+            $pubDate = el.find("pubDate").text();
 
-            $feedItem = '<li><a href="' + $link + '">' + $title + '</a></li>';
+            $feedItem = '<li><a href="' + $link + '">' + $title + '</a> (<i>' + $pubDate + '</i>)</li>';
 
             $('#url-list').append($feedItem);
 
