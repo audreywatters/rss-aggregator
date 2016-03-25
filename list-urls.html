@@ -1,0 +1,40 @@
+---
+layout: page
+title: API Security
+---
+
+<script type="text/javascript">
+
+  $.get($url, function (data) {
+
+    // RAW is only way we can get at _data
+    $feedurls = 'https://raw.githubusercontent.com/indieedtech/rss-aggregator/gh-pages/_data/feed-urls.json';
+
+    $.get($feedurls, function (feeds) {
+
+      $.each(feedurls, function(feedKey, feedEntry) {
+
+        $feedName = feedEntry['name'];
+        $feedURL = feedEntry['url'];
+
+        $.get($feedurls, function (feeds) {
+
+          $(data).find("item").each(function () {
+
+            var el = $(this);
+            $title = el.find("title").text();
+            $link = el.find("link").text();
+            $feedItem = '<li><a href="' + $link + '">' + $title + '</a></li>';
+
+            $('#url-list').append($feedItem);
+
+            });
+          });
+        });
+      });
+    });
+</script>
+
+<p>Lists All The URLs</p>
+
+<ul id="url-list"></ul>
