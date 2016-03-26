@@ -5,6 +5,9 @@ title: API Security
 
 <script type="text/javascript">
 
+    var $feedName = "";
+    var $feedURL = "";
+
     // RAW is only way we can get at _data
     $feedurls = 'https://raw.githubusercontent.com/indieedtech/rss-aggregator/gh-pages/_data/feed-urls.json';
 
@@ -16,10 +19,10 @@ title: API Security
 
         $feedName = feedEntry['name'];
         $feedURL = feedEntry['url'];
-console.log($feedName);
-        $.get($feedURL, function (feeds,$feedName) {
 
-          $(feeds).find("item").each(function ($feedName) {
+        $.get($feedURL, function (feeds) {
+
+          $(feeds).find("item").each(function () {
 
             var el = $(this);
             $title = el.find("title").text();
