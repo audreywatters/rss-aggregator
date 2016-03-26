@@ -1,5 +1,35 @@
 [
     {
+        "feed": "Hack Education",
+        "title": "Hack Education Weekly News",
+        "link": "http://hackeducation.com/2016/03/25/hack-education-weekly-news",
+        "pubDate": "03/25/2016"
+    },
+    {
+        "feed": "Hack Education",
+        "title": "Roaming Autodidacts and Entrepreneurial (L)Earners: The Stories We Tell about Lifelong Learning",
+        "link": "http://hackeducation.com/2016/03/25/lifelong-learning-lol",
+        "pubDate": "03/25/2016"
+    },
+    {
+        "feed": "Hack Education",
+        "title": "'I Love My Label': Resisting the Pre-Packaged Sound in Ed-Tech",
+        "link": "http://hackeducation.com/2016/03/18/i-love-my-label",
+        "pubDate": "03/18/2016"
+    },
+    {
+        "feed": "Hack Education",
+        "title": "The Allure of 'Matrix-Style Learning'",
+        "link": "http://hackeducation.com/2016/03/02/matrix",
+        "pubDate": "03/02/2016"
+    },
+    {
+        "feed": "Hack Education",
+        "title": "Blockchain for Education: A Research Project",
+        "link": "http://hackeducation.com/2016/02/25/blockchain-edu1",
+        "pubDate": "02/25/2016"
+    },
+    {
         "feed": "API Evangelist",
         "title": "The Unintended Consequences Of API Patents",
         "link": "http://apievangelist.com/2016/03/25/the-unintended-consequences-of-api-patents/",
@@ -148,35 +178,5 @@
         "title": "The 70 Platforms With Job Postings For A Developer Evangelist Or Advocate Currently",
         "link": "http://apievangelist.com/2016/03/07/the-70-platforms-with-job-postings-for-a-developer-evangelist-or-advocate-currently/",
         "pubDate": "03/06/2016"
-    },
-    {
-        "feed": "Hack Education",
-        "title": "Hack Education Weekly News",
-        "link": "http://hackeducation.com/2016/03/25/hack-education-weekly-news",
-        "pubDate": "03/25/2016"
-    },
-    {
-        "feed": "Hack Education",
-        "title": "Roaming Autodidacts and Entrepreneurial (L)Earners: The Stories We Tell about Lifelong Learning",
-        "link": "http://hackeducation.com/2016/03/25/lifelong-learning-lol",
-        "pubDate": "03/25/2016"
-    },
-    {
-        "feed": "Hack Education",
-        "title": "'I Love My Label': Resisting the Pre-Packaged Sound in Ed-Tech",
-        "link": "http://hackeducation.com/2016/03/18/i-love-my-label",
-        "pubDate": "03/18/2016"
-    },
-    {
-        "feed": "Hack Education",
-        "title": "The Allure of 'Matrix-Style Learning'",
-        "link": "http://hackeducation.com/2016/03/02/matrix",
-        "pubDate": "03/02/2016"
-    },
-    {
-        "feed": "Hack Education",
-        "title": "Blockchain for Education: A Research Project",
-        "link": "http://hackeducation.com/2016/02/25/blockchain-edu1",
-        "pubDate": "02/25/2016"
     }
 ]
