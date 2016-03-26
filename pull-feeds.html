@@ -68,13 +68,6 @@ title: Pull Feeds
             if($countFeeds==$howManyFeeds && $countItems == $howManyItems){
               $viewer = JSON.stringify($masterFeed, null, 4);
     					document.getElementById("jsonViewerDetails").value = $viewer;
-
-              var github = new Github({token: $oAuth_Token,auth: "oauth"});
-            	var repo = github.getRepo($org,$repo);
-
-              console.log("Start writing!");
-              //repo.write('gh-pages', '_data/feed-entries.json', $viewer, 'pull feeds', options, function(err) {});
-              console.log("Done writing!");
               }
 
             });
