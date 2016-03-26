@@ -1,6 +1,6 @@
 ---
 layout: page
-title: API Security
+title: List URLs
 ---
 
 <script type="text/javascript">
@@ -20,22 +20,10 @@ title: API Security
         $feedName = feedEntry['name'];
         $feedURL = feedEntry['url'];
 
-        $.get($feedURL, function (feeds) {
+        $feedItem = '<li><a href="' + $feedURL + '" target="_blank">' + $feedName + '</a></li>';
 
-          $(feeds).find("item").each(function () {
+        $('#url-list').append($feedItem);
 
-            var el = $(this);
-            $title = el.find("title").text();
-            $link = el.find("link").text();
-            $pubDate = el.find("pubDate").text();
-            $pubDate = dateFormat($pubDate, "mm/dd/yyyy");
-
-            $feedItem = '<li><a href="' + $link + '">' + $title + '</a> (<i>' + feedEntry['name'] + ' on ' + $pubDate + '</i>)</li>';
-
-            $('#url-list').append($feedItem);
-
-            });
-          });
         });
       });
 
