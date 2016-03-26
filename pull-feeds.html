@@ -21,7 +21,6 @@ title: Pull Feeds
 
       $countFeeds = 1;
       $howManyFeeds = $feedsJSON.length;
-      console.log("how many feeds: " + $howManyFeeds);
 
       $.each($feedsJSON, function(feedKey, feedEntry) {
 
@@ -71,7 +70,7 @@ title: Pull Feeds
     					document.getElementById("jsonViewerDetails").value = $viewer;
 
               var github = new Github({token: $oAuth_Token,auth: "oauth"});
-            	var repo = github.getRepo($org,$repo);              
+            	var repo = github.getRepo($org,$repo);
 
             	repo.getTree('gh-pages', function(err, tree) {
 
