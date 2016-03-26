@@ -25,7 +25,7 @@ title: API Security
             $title = el.find("title").text();
             $link = el.find("link").text();
             $pubDate = el.find("pubDate").text();
-            $pubDate = new Date.parseExact($pubDate, "mm-dd-yyyy");
+            $pubDate = $pubDate.format("m/dd/yy");
 
             $feedItem = '<li><a href="' + $link + '">' + $title + '</a> (<i>' + $pubDate + '</i>)</li>';
 
