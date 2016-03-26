@@ -80,7 +80,9 @@ title: Pull Feeds
               	var repo = github.getRepo($org,$repo);
 
                 repo.contents('gh-pages', "_data", function(err, contents) {
-                  console.log(contents);
+                  $.each(contents, function(key, item) {
+                    console.log(item);
+                    });
                 });
 
                 }
