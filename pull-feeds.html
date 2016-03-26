@@ -69,14 +69,11 @@ title: Pull Feeds
             });
           })
           .done(function() {
-
               $countFeeds++;
 
               // Are we done yet?
-              console.log($countFeeds + ' == ' + $howManyFeeds + ' && ' + $countItems + ' == ' + $howManyItems)
               if($countFeeds==$howManyFeeds && $countItems == $howManyItems){
-                $viewer = JSON.stringify($masterFeed, null, 4);
-      					document.getElementById("jsonViewerDetails").value = $viewer;
+                $feedJSON = JSON.stringify($masterFeed, null, 4);
 
                 var github = new Github({token: $oAuth_Token,auth: "oauth"});
               	var repo = github.getRepo($org,$repo);
@@ -91,7 +88,7 @@ title: Pull Feeds
 
               			if($path==$writepath)
               				{
-                      repo.writemanual('gh-pages',$writepath, $viewer, 'Save', $sha, function(err) { });
+                      repo.writemanual('gh-pages',$writepath, $feedJSON, 'Save', $sha, function(err) { });
               				}
               			});
               		});
@@ -99,7 +96,7 @@ title: Pull Feeds
             })
           .fail(function() {
             // Feed failed for some reason
-            console.log("FAIL");
+            console.log("FAIL (probably CORS)");
             $howManyFeeds = $howManyFeeds - 1;
 
           });
@@ -109,12 +106,11 @@ title: Pull Feeds
           console.log("SUCESS");
         })
       .fail(function() {
-        console.log("NO GO");
+        console.log("NO GO AT ALL!");
       });
 
 </script>
 
-<h2>Pull Feeds - 2</h2>
+<h2>Pull Feeds</h2>
 
 <ul id="process-feeds"></ul>
-<br /><textarea row="50" cols="100" id="jsonViewerDetails" style="height: 400px;"></textarea>
