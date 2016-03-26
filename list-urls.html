@@ -20,7 +20,7 @@ title: List URLs
         $feedName = feedEntry['name'];
         $feedURL = feedEntry['url'];
 
-        $feedItem = '<li><a href="' + $feedURL + '" target="_blank">' + $feedName + '</a> - <a href="' + $feedURL + '" target="_blank">' + $feedURL + '</a></li>';
+        $feedItem = '<li><strong>' + $feedName + '</strong> - <a href="' + $feedURL + '" target="_blank">' + $feedURL + '</a></li>';
 
         $('#url-list').append($feedItem);
 
@@ -29,6 +29,6 @@ title: List URLs
 
 </script>
 
-<p>Lists All The URLs</p>
+<h2>Lists All The URLs</h2>
 
 <ul id="url-list"></ul>
