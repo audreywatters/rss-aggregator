@@ -8,7 +8,6 @@ title: Pull Feeds
     var $oAuth_Token = getUrlVar('oAuth_Token');
     var $org = 'indieedtech';
     var $repo = 'rss-aggregator';
-    var $oauthio = 'qUDL4eZqKPFb41SwuWIYIwLR6jI';
 
     var $masterFeed = [];
 
@@ -68,29 +67,6 @@ title: Pull Feeds
             if($countFeeds==$howManyFeeds && $countItems == $howManyItems){
               $viewer = JSON.stringify($masterFeed, null, 4);
     					document.getElementById("jsonViewerDetails").value = $viewer;
-
-              var github = new Github({token: $oAuth_Token,auth: "oauth"});
-            	var repo = github.getRepo($org,$repo);
-
-            	repo.getTree('gh-pages', function(err, tree) {
-
-            		$.each(tree, function(treeKey, treeValue) {
-
-            			$path = treeValue['path'];
-            			$sha = treeValue['sha'];
-
-                  console.log($path);
-                  console.log($sha);
-
-            			if($path=='apis.json')
-            				{
-            				//console.log($path + ' - ' + $sha);
-            			    repo.writemanual('gh-pages', 'apis.json', $WriteAPIsJSON, 'Save', $sha, function(err) { });
-            				}
-
-            			});
-            		});
-
               }
 
             });
@@ -104,7 +80,7 @@ title: Pull Feeds
 
 </script>
 
-<h2>Pull Feeds</h2>
+<h2>Pull Feeds - 1</h2>
 
 <ul id="process-feeds"></ul>
 <br /><textarea row="10" cols="100" id="jsonViewerDetails"></textarea>
