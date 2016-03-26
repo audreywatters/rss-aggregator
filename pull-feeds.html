@@ -23,6 +23,8 @@ title: Pull Feeds
 
       $.each($feedsJSON, function(feedKey, feedEntry) {
 
+        $feedName = feedEntry['name'];
+        console.log($feedName);
         $feedURL = feedEntry['url'];
         $existAlready = 0;
 
