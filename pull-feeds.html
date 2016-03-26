@@ -79,21 +79,22 @@ title: Pull Feeds
                 var github = new Github({token: $oAuth_Token,auth: "oauth"});
               	var repo = github.getRepo($org,$repo);
 
-                repo.getTree('gh-pages?recursive=true', function(err, tree) {
+                if($countFeeds==$howManyFeeds && $countItems == $howManyItems){
+                  $viewer = JSON.stringify($masterFeed, null, 4);
+        					document.getElementById("jsonViewerDetails").value = $viewer;
 
-              		$.each(tree, function(treeKey, treeValue) {
+                  var github = new Github({token: $oAuth_Token,auth: "oauth"});
+                	var repo = github.getRepo($org,$repo);
 
-                    $writepath = '_data/feed-entries.json';
-              			$path = treeValue['path'];
-              			$sha = treeValue['sha'];
-
-              			if($path==$writepath)
-              				{
-              				  console.log($path + ' - ' + $sha);
-              			    repo.write('gh-pages',$writepath, $viewer, 'Save', $sha, function(err) { });
-              				}
-              			});
-              		});
+                  var options = {
+                    author: {name: 'Kin Lane', email: 'kinlane@gmail.com'},
+                    committer: {name: 'Kin Lane', email: 'kinlane@gmail.com'},
+                    encode: true
+                  }
+                  console.log("Start writing!");
+                  repo.write('gh-pages', '_data/feed-entries.json', $viewer, 'pull feeds', options, function(err) {});
+                  console.log("Done writing!");
+                  }
 
                 }
 
@@ -118,7 +119,7 @@ title: Pull Feeds
 
 </script>
 
-<h2>Pull Feeds - 1</h2>
+<h2>Pull Feeds - 2</h2>
 
 <ul id="process-feeds"></ul>
 <br /><textarea row="50" cols="100" id="jsonViewerDetails" style="height: 400px;"></textarea>
