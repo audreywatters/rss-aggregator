@@ -20,7 +20,7 @@ title: Pull Feeds
 
       $countFeeds = 1;
       $howManyFeeds = $feedsJSON.length;
-
+      console.log('feeds: ' + $howManyFeeds);
       $.each($feedsJSON, function(feedKey, feedEntry) {
 
         $feedURL = feedEntry['url'];
@@ -73,7 +73,7 @@ title: Pull Feeds
             });
           })
           .done(function() {
-              alert("SUCCESS");
+              console.log("SUCESS");
               $countFeeds++;
             })
           .fail(function() {
