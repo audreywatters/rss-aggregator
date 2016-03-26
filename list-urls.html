@@ -17,12 +17,12 @@ title: API Security
 
       $.each($feedsJSON, function(feedKey, feedEntry) {
 
-        $feedName = feedEntry['name'];
-        $feedURL = feedEntry['url'];
-
         $.get($feedURL, function (feeds) {
 
           $(feeds).find("item").each(function () {
+
+            $feedName = feedEntry['name'];
+            $feedURL = feedEntry['url'];            
 
             var el = $(this);
             $title = el.find("title").text();
