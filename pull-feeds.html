@@ -22,7 +22,7 @@ title: Pull Feeds
 
         $feedURL = feedEntry['url'];
 
-        $.get($feedURL, function (feeds) {
+        var thisFeed = $.get($feedURL, function (feeds) {
 
           $(feeds).find("item").each(function () {
 
@@ -60,6 +60,11 @@ title: Pull Feeds
 
             });
             $countFeeds++;
+          });
+          .fail(function() {
+
+            $howManyFeeds = $howManyFeeds - 1;
+            
           });
         });
       });
