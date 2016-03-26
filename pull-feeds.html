@@ -95,12 +95,9 @@ title: Pull Feeds
               				}
               			});
               		});
-
                 }
-
             })
           .fail(function() {
-
             // Feed failed for some reason
             console.log("FAIL");
             $howManyFeeds = $howManyFeeds - 1;
@@ -110,7 +107,6 @@ title: Pull Feeds
       })
       .done(function() {
           console.log("SUCESS");
-          $countFeeds++;
         })
       .fail(function() {
         console.log("NO GO");
@@ -118,7 +114,7 @@ title: Pull Feeds
 
 </script>
 
-<h2>Pull Feeds - 1</h2>
+<h2>Pull Feeds - 2</h2>
 
 <ul id="process-feeds"></ul>
 <br /><textarea row="50" cols="100" id="jsonViewerDetails" style="height: 400px;"></textarea>
