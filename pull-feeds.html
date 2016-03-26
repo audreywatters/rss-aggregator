@@ -78,7 +78,11 @@ title: Pull Feeds
                 encode: true
               }
 
-              repo.write('gh-pages', '_data/feed-urls.json', $viewer, 'pull feeds', options, function(err) {});
+              repo.write('gh-pages', '_data/feed-entries.json', $viewer, 'pull feeds', options, function(err) {
+
+                console.log(err);
+
+              });
 
             	repo.getTree('gh-pages', function(err, tree) {
 
