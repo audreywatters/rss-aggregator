@@ -22,14 +22,14 @@ title: List URLs
 
         var jqxhr = $.get($feedURL, function() {
           var $results = 'success';
+          $feedItem = '<li><strong>' + $feedName + '</strong> - <a href="' + $feedURL + '" target="_blank">' + $feedURL + '</a> (<i>' + $results + '</i>)</li>';
+          $('#url-list').append($feedItem);
         })
         .fail(function() {
           var $results = 'failed';
+          $feedItem = '<li><strong>' + $feedName + '</strong> - <a href="' + $feedURL + '" target="_blank">' + $feedURL + '</a> (<i>' + $results + '</i>)</li>';
+          $('#url-list').append($feedItem);          
         })
-
-        $feedItem = '<li><strong>' + $feedName + '</strong> - <a href="' + $feedURL + '" target="_blank">' + $feedURL + '</a> (<i>' + $results + '</i>)</li>';
-
-        $('#url-list').append($feedItem);
 
         });
       });
