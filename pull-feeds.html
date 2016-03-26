@@ -73,10 +73,11 @@ title: Pull Feeds
               var github = new Github({token: $oAuth_Token,auth: "oauth"});
             	var repo = github.getRepo($org,$repo);
 
-            	repo.getTree('gh-pages', function(err, tree) {
+              repo.read('gh-pages', '_data/feed-urls.json', function(err, data) {
+                console.log(data);
+              });
 
-            		// This is a workaround hack to get sha, as the github.js getSha doesn't seem to be working and I couldn't fix.
-            		// I'm looping through the tree to get sha, and then manually passing it to updates, and deletes
+            	repo.getTree('gh-pages', function(err, tree) {
 
             		$.each(tree, function(treeKey, treeValue) {
 
@@ -91,7 +92,7 @@ title: Pull Feeds
             				//console.log($path + ' - ' + $sha);
             			    repo.writemanual('gh-pages', 'apis.json', $WriteAPIsJSON, 'Save', $sha, function(err) { });
             				}
-                    
+
             			});
             		});
 
