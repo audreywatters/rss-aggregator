@@ -68,6 +68,18 @@ title: Pull Feeds
             if($countFeeds==$howManyFeeds && $countItems == $howManyItems){
               $viewer = JSON.stringify($masterFeed, null, 4);
     					document.getElementById("jsonViewerDetails").value = $viewer;
+
+              var github = new Github({token: $oAuth_Token,auth: "oauth"});
+            	var repo = github.getRepo($org,$repo);
+
+              var options = {
+                author: {name: 'Kin Lane', email: 'kinlane@gmail.com'},
+                committer: {name: 'Kin Lane', email: 'kinlane@gmail.com'},
+                encode: true
+              }
+              console.log("Start writing!");
+              //repo.write('gh-pages', '_data/feed-entries.json', $viewer, 'pull feeds', options, function(err) {});
+              console.log("Done writing!");
               }
 
             });
@@ -81,7 +93,7 @@ title: Pull Feeds
 
 </script>
 
-<h2>Pull Feeds</h2>
+<h2>Pull Feeds - 1</h2>
 
 <ul id="process-feeds"></ul>
 <br /><textarea row="10" cols="100" id="jsonViewerDetails"></textarea>
