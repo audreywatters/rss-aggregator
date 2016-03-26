@@ -17,10 +17,11 @@ title: List URLs
 
       $.each($feedsJSON, function(feedKey, feedEntry) {
 
+        $feedURL = feedEntry['url'];
+
         var jqxhr = $.get($feedURL, function() {
 
           $feedName = feedEntry['name'];
-          $feedURL = feedEntry['url'];
 
           $feedItem = '<li><strong>' + $feedName + '</strong> - <a href="' + $feedURL + '" target="_blank">' + $feedURL + '</a> (<i>success</i>)</li>';
           $('#url-list').append($feedItem);
@@ -30,7 +31,7 @@ title: List URLs
 
           $feedName = feedEntry['name'];
           $feedURL = feedEntry['url'];
-          
+
           $feedItem = '<li><strong>' + $feedName + '</strong> - <a href="' + $feedURL + '" target="_blank">' + $feedURL + '</a> (<i>failed</i>)</li>';
           $('#url-list').append($feedItem);
 
