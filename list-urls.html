@@ -20,7 +20,14 @@ title: List URLs
         $feedName = feedEntry['name'];
         $feedURL = feedEntry['url'];
 
-        $feedItem = '<li><strong>' + $feedName + '</strong> - <a href="' + $feedURL + '" target="_blank">' + $feedURL + '</a></li>';
+        var jqxhr = $.get($feedURL, function() {
+          var $results = 'success';
+        })
+        .fail(function() {
+          var $results = 'failed';
+        })
+
+        $feedItem = '<li><strong>' + $feedName + '</strong> - <a href="' + $feedURL + '" target="_blank">' + $feedURL + '</a> (<i>' + $results + '</i>)</li>';
 
         $('#url-list').append($feedItem);
 
