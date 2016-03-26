@@ -24,7 +24,9 @@ title: Pull Feeds
 
         var thisFeed = $.get($feedURL, function (feeds) {
 
-          console.log("how many xml" + $(feeds).find("item").length);
+          $countItems = 1;
+          $howManyItems = $(feeds).find("item").length;
+
           $(feeds).find("item").each(function () {
 
             $feedName = feedEntry['name'];
@@ -58,7 +60,10 @@ title: Pull Feeds
 
             $('#process-feeds').append($feedItem);
 
-            console.log("done? " + $countFeeds + " / " + $howManyFeeds);
+            $countItems ++;
+            if($countFeeds==$howManyFeeds && $countItems == $howManyItems){
+              console.log($masterFeed);
+              }
 
             });
             $countFeeds++;
