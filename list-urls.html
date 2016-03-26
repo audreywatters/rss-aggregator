@@ -22,6 +22,7 @@ title: List URLs
         var jqxhr = $.get($feedURL, function() {
 
           $feedName = feedEntry['name'];
+          $feedURL = feedEntry['url'];
 
           $feedItem = '<li><strong>' + $feedName + '</strong> - <a href="' + $feedURL + '" target="_blank">' + $feedURL + '</a> (<i>success</i>)</li>';
           $('#url-list').append($feedItem);
