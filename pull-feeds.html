@@ -68,18 +68,35 @@ title: Pull Feeds
             });
           })
           .done(function() {
+
               $countFeeds++;
 
-              console.log($countFeeds + ' == ' + $howManyFeeds + ' && ' + $countItems + ' == ' + $howManyItems);
+              // Are we done yet?
               if($countFeeds==$howManyFeeds && $countItems == $howManyItems){
                 $viewer = JSON.stringify($masterFeed, null, 4);
       					document.getElementById("jsonViewerDetails").value = $viewer;
+
+                var github = new Github({token: $oAuth_Token,auth: "oauth"});
+              	var repo = github.getRepo($org,$repo);
+
+                var options = {
+                  author: {name: 'Kin Lane', email: 'kinlane@gmail.com'},
+                  committer: {name: 'Kin Lane', email: 'kinlane@gmail.com'},
+                  encode: true
+                }
+                console.log("Start writing!");
+                //repo.write('gh-pages', '_data/feed-entries.json', $viewer, 'pull feeds', options, function(err) {});
+                console.log("Done writing!");
+
                 }
 
             })
           .fail(function() {
+
+            // Feed failed for some reason
             console.log("FAIL");
             $howManyFeeds = $howManyFeeds - 1;
+
           });
         });
       })
