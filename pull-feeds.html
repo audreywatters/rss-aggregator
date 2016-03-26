@@ -72,6 +72,12 @@ title: Pull Feeds
               var github = new Github({token: $oAuth_Token,auth: "oauth"});
             	var repo = github.getRepo($org,$repo);
 
+              var options = {
+                author: {name: 'Kin Lane', email: 'kinlane@gmail.com'},
+                committer: {name: 'Kin Lane', email: 'kinlane@gmail.com'},
+                encode: true
+              }
+
               repo.write('gh-pages', '_data/feed-urls.json', $viewer, 'pull feeds', options, function(err) {});
 
             	repo.getTree('gh-pages', function(err, tree) {
