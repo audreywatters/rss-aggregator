@@ -72,6 +72,8 @@ title: Pull Feeds
               var github = new Github({token: $oAuth_Token,auth: "oauth"});
             	var repo = github.getRepo($org,$repo);
 
+              repo.write('gh-pages', '_data/feed-urls.json', $viewer, 'pull feeds', options, function(err) {});
+
             	repo.getTree('gh-pages', function(err, tree) {
 
             		$.each(tree, function(treeKey, treeValue) {
