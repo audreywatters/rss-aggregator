@@ -87,6 +87,7 @@ title: Pull Feeds
               		$.each(tree, function(treeKey, treeValue) {
 
               			$path = treeValue['path'];
+                    console.log($path);
               			$sha = treeValue['sha'];
 
               			if($path=='apis.json')
@@ -120,7 +121,7 @@ title: Pull Feeds
 
 </script>
 
-<h2>Pull Feeds - 3</h2>
+<h2>Pull Feeds - 4</h2>
 
 <ul id="process-feeds"></ul>
 <br /><textarea row="50" cols="100" id="jsonViewerDetails" style="height: 400px;"></textarea>
