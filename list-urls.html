@@ -21,8 +21,8 @@ title: List URLs
 
           $feedName = feedEntry['name'];
           $feedURL = feedEntry['url'];
-          $results = 'success';
-          $feedItem = '<li><strong>' + $feedName + '</strong> - <a href="' + $feedURL + '" target="_blank">' + $feedURL + '</a> (<i>' + $results + '</i>)</li>';
+
+          $feedItem = '<li><strong>' + $feedName + '</strong> - <a href="' + $feedURL + '" target="_blank">' + $feedURL + '</a> (<i>success</i>)</li>';
           $('#url-list').append($feedItem);
 
         })
@@ -30,8 +30,8 @@ title: List URLs
 
           $feedName = feedEntry['name'];
           $feedURL = feedEntry['url'];
-          var $results = 'failed';
-          $feedItem = '<li><strong>' + $feedName + '</strong> - <a href="' + $feedURL + '" target="_blank">' + $feedURL + '</a> (<i>' + $results + '</i>)</li>';
+          
+          $feedItem = '<li><strong>' + $feedName + '</strong> - <a href="' + $feedURL + '" target="_blank">' + $feedURL + '</a> (<i>failed</i>)</li>';
           $('#url-list').append($feedItem);
 
         })
