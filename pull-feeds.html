@@ -24,7 +24,8 @@ title: Pull Feeds
       $.each($feedsJSON, function(feedKey, feedEntry) {
 
         $feedURL = feedEntry['url'];
-
+        $existAlready = 0;
+        
         var thisFeed = $.get($feedURL, function (feeds) {
 
           $countItems = 0;
