@@ -27,7 +27,7 @@ title: Pull Feeds
 
         var thisFeed = $.get($feedURL, function (feeds) {
 
-          $countItems = 1;
+          $countItems = 0;
           $howManyItems = $(feeds).find("item").length;
 
           $(feeds).find("item").each(function () {
