@@ -16,7 +16,7 @@ title: API Security
 
         $feedName = feedEntry['name'];
         $feedURL = feedEntry['url'];
-
+console.log($feedName);
         $.get($feedURL, function (feeds,$feedName) {
 
           $(feeds).find("item").each(function ($feedName) {
