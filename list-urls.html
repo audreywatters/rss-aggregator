@@ -32,7 +32,7 @@ title: List URLs
           $feedName = feedEntry['name'];
           $feedURL = feedEntry['url'];
 
-          $feedItem = '<li><strong>' + $feedName + '</strong> - <a href="' + $feedURL + '" target="_blank">' + $feedURL + '</a> (<i>failed</i>)</li>';
+          $feedItem = '<li><strong>' + $feedName + '</strong> - <a href="' + $feedURL + '" target="_blank">' + $feedURL + '</a> (<i>failed - No Access-Control-Allow-Origin</i>)</li>';
           $('#url-list').append($feedItem);
 
         });
