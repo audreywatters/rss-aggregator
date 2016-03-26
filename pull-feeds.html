@@ -14,7 +14,7 @@ title: Pull Feeds
     // RAW is only way we can get at _data
     $feedurls = 'https://raw.githubusercontent.com/indieedtech/rss-aggregator/gh-pages/_data/feed-urls.json';
 
-    $.get($feedurls, function (feeds) {
+    var allFeeds = $.get($feedurls, function (feeds) {
 
       $feedsJSON = JSON.parse(feeds);
 
@@ -64,12 +64,6 @@ title: Pull Feeds
             $('#process-feeds').append($feedItem);
 
             $countItems ++;
-            console.log($countFeeds + ' == ' + $howManyFeeds + ' && ' + $countItems + ' == ' + $howManyItems);
-            if($countFeeds==$howManyFeeds && $countItems == $howManyItems){
-              $viewer = JSON.stringify($masterFeed, null, 4);
-    					document.getElementById("jsonViewerDetails").value = $viewer;
-              }
-
             });
           })
           .done(function() {
@@ -81,6 +75,13 @@ title: Pull Feeds
             $howManyFeeds = $howManyFeeds - 1;
           });
         });
+      })
+      .done(function() {
+        $viewer = JSON.stringify($masterFeed, null, 4);
+        document.getElementById("jsonViewerDetails").value = $viewer;
+        })
+      .fail(function() {
+        console.log("NO LOAD");
       });
 
 </script>
