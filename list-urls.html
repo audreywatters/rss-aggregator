@@ -17,18 +17,23 @@ title: List URLs
 
       $.each($feedsJSON, function(feedKey, feedEntry) {
 
-        $feedName = feedEntry['name'];
-        $feedURL = feedEntry['url'];
-
         var jqxhr = $.get($feedURL, function() {
-          var $results = 'success';
+
+          $feedName = feedEntry['name'];
+          $feedURL = feedEntry['url'];
+          $results = 'success';
           $feedItem = '<li><strong>' + $feedName + '</strong> - <a href="' + $feedURL + '" target="_blank">' + $feedURL + '</a> (<i>' + $results + '</i>)</li>';
           $('#url-list').append($feedItem);
+
         })
         .fail(function() {
+
+          $feedName = feedEntry['name'];
+          $feedURL = feedEntry['url'];
           var $results = 'failed';
           $feedItem = '<li><strong>' + $feedName + '</strong> - <a href="' + $feedURL + '" target="_blank">' + $feedURL + '</a> (<i>' + $results + '</i>)</li>';
-          $('#url-list').append($feedItem);          
+          $('#url-list').append($feedItem);
+
         })
 
         });
