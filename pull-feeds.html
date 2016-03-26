@@ -73,6 +73,7 @@ title: Pull Feeds
             $countFeeds++;
           })
           .fail(function() {
+            console.log("FAIL");
             $howManyFeeds = $howManyFeeds - 1;
           });
         });
@@ -80,7 +81,7 @@ title: Pull Feeds
 
 </script>
 
-<h2>Pull Feeds - 1</h2>
+<h2>Pull Feeds - 2</h2>
 
 <ul id="process-feeds"></ul>
 <br /><textarea row="10" cols="100" id="jsonViewerDetails"></textarea>
