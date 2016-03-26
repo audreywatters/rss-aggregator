@@ -25,7 +25,7 @@ title: Pull Feeds
 
         $feedURL = feedEntry['url'];
         $existAlready = 0;
-        
+
         var thisFeed = $.get($feedURL, function (feeds) {
 
           $countItems = 0;
@@ -113,8 +113,7 @@ title: Pull Feeds
           $countFeeds++;
         })
       .fail(function() {
-        console.log("FAIL");
-        $howManyFeeds = $howManyFeeds - 1;
+        console.log("NO GO");
       });
 
 </script>
