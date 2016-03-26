@@ -90,7 +90,7 @@ title: Pull Feeds
               			if($path==$writepath)
               				{
               				  console.log($path + ' - ' + $sha);
-              			    repo.write('gh-pages',$writepath, 'hello', 'Save', $sha, function(err) { });
+                        repo.writemanual('gh-pages',$writepath, $viewer, 'Save', $sha, function(err) { });
               				}
               			});
               		});
