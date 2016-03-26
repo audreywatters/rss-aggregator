@@ -14,7 +14,7 @@ title: Pull Feeds
 
       $feedsJSON = JSON.parse(feeds);
 
-      $countFeeds = 0;
+      $countFeeds = 1;
       $howManyFeeds = $feedsJSON.length;
       console.log("how many feeds: " + $howManyFeeds);
 
@@ -57,6 +57,7 @@ title: Pull Feeds
 
             $('#process-feeds').append($feedItem);
             console.log("done? " + $countFeeds + " / " + $howManyFeeds);
+
             });
             $countFeeds++;
           });
