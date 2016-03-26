@@ -27,7 +27,7 @@ title: API Security
             $pubDate = el.find("pubDate").text();
             $pubDate = dateFormat($pubDate, "mm/dd/yyyy");
 
-            $feedItem = '<li><a href="' + $link + '">' + $title + '</a> (<i>' + $pubDate + '</i>)</li>';
+            $feedItem = '<li><a href="' + $link + '">' + $title + '</a> (<i>' + $feedName + ' on ' + $pubDate + '</i>)</li>';
 
             $('#url-list').append($feedItem);
 
