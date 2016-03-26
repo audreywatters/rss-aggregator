@@ -62,7 +62,8 @@ title: Pull Feeds
 
             $countItems ++;
             if($countFeeds==$howManyFeeds && $countItems == $howManyItems){
-              console.log($masterFeed);
+              $viewer = JSON.stringify($masterFeed, null, 4);
+    					document.getElementById("jsonViewerDetails").value = $viewer;
               }
 
             });
@@ -79,3 +80,4 @@ title: Pull Feeds
 <h2>Pull Feeds</h2>
 
 <ul id="process-feeds"></ul>
+<br /><textarea row="10" cols="100" id="jsonViewerDetails"></textarea>
