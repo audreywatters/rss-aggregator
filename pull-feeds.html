@@ -81,19 +81,16 @@ title: Pull Feeds
 
                 repo.getTree('gh-pages?recursive=true', function(err, tree) {
 
-              		// This is a workaround hack to get sha, as the github.js getSha doesn't seem to be working and I couldn't fix.
-              		// I'm looping through the tree to get sha, and then manually passing it to updates, and deletes
-
               		$.each(tree, function(treeKey, treeValue) {
 
+                    $writepath = '_data/feed-entries.json';
               			$path = treeValue['path'];
-                    console.log($path);
               			$sha = treeValue['sha'];
 
-              			if($path=='apis.json')
+              			if($path==$writepath)
               				{
-              				//console.log($path + ' - ' + $sha);
-              			    repo.writemanual('gh-pages', 'apis.json', $WriteAPIsJSON, 'Save', $sha, function(err) { });
+              				  console.log($path + ' - ' + $sha);
+              			    repo.writemanual('gh-pages',$writepath, $viewer, 'Save', $sha, function(err) { });
               				}
               			});
               		});
@@ -121,7 +118,7 @@ title: Pull Feeds
 
 </script>
 
-<h2>Pull Feeds - 4</h2>
+<h2>Pull Feeds - 5</h2>
 
 <ul id="process-feeds"></ul>
 <br /><textarea row="50" cols="100" id="jsonViewerDetails" style="height: 400px;"></textarea>
