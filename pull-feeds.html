@@ -5,8 +5,7 @@ title: Pull Feeds
 
 <script type="text/javascript">
 
-    var $feedName = "";
-    var $feedURL = "";
+    var $masterFeed = "";
 
     // RAW is only way we can get at _data
     $feedurls = 'https://raw.githubusercontent.com/indieedtech/rss-aggregator/gh-pages/_data/feed-urls.json';
@@ -30,6 +29,27 @@ title: Pull Feeds
             $link = el.find("link").text();
             $pubDate = el.find("pubDate").text();
             $pubDate = dateFormat($pubDate, "mm/dd/yyyy");
+
+            $feedentry = {};
+          	$feedentry['feed'] = $feedName;
+          	$feedentry['title'] = $title;
+          	$feedentry['link'] = $link;
+            $feedentry['pubDate'] = $pubDate;
+
+            $existAlready = 0;
+            $.each($masterFeed, function(existingKey, existingFeed) {
+                if(existingFeed['feed'] == $feedName && existingFeed['title'] == $title)
+                  {
+                  $existAlready = 1;
+                  }
+                });
+
+            // Add It
+            console.log($existAlready);
+            if($existAlready==0)
+              {
+          	  $masterFeed.push($feedentry);
+              }
 
             $feedItem = '<li><a href="' + $link + '">' + $title + '</a> (<i>' + $feedName + ' on ' + $pubDate + '</i>)</li>';
 
