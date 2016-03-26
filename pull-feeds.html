@@ -18,9 +18,9 @@ title: Pull Feeds
 
       $feedsJSON = JSON.parse(feeds);
 
-      $countFeeds = 1;
+      $countFeeds = 0;
       $howManyFeeds = $feedsJSON.length;
-      console.log('feeds: ' + $howManyFeeds);
+
       $.each($feedsJSON, function(feedKey, feedEntry) {
 
         $feedURL = feedEntry['url'];
@@ -94,7 +94,7 @@ title: Pull Feeds
 
 </script>
 
-<h2>Pull Feeds - 4</h2>
+<h2>Pull Feeds - 5</h2>
 
 <ul id="process-feeds"></ul>
 <br /><textarea row="50" cols="100" id="jsonViewerDetails"></textarea>
