@@ -93,6 +93,7 @@ title: Pull Feeds
                     console.log($path + ' == ' + $writepath);
               			if($path==$writepath)
               				{
+                      document.getElementById('showme').value = $feedJSON;
                       repo.writemanual('gh-pages',$writepath, $feedJSON, 'Save', $sha, function(err) { });
               				}
               			});
@@ -119,3 +120,4 @@ title: Pull Feeds
 <h2>Pull Feeds</h2>
 
 <ul id="process-feeds"></ul>
+<textarea cols="100" rows="10" id="showme" /></textarea>
