@@ -74,7 +74,9 @@ title: Pull Feeds
               $countFeeds++;
 
               // Are we done yet?
+              console.log($countFeeds + ' == ' + $howManyFeeds + ' && ' + $countItems + ' == ' + $howManyItems);
               if($countFeeds==$howManyFeeds && $countItems == $howManyItems){
+
                 $feedJSON = JSON.stringify($masterFeed, null, 4);
 
                 var github = new Github({token: $oAuth_Token,auth: "oauth"});
@@ -88,6 +90,7 @@ title: Pull Feeds
               			$path = treeValue['path'];
               			$sha = treeValue['sha'];
 
+                    console.log($path + ' == ' + $writepath);
               			if($path==$writepath)
               				{
                       repo.writemanual('gh-pages',$writepath, $feedJSON, 'Save', $sha, function(err) { });
