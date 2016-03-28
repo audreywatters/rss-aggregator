@@ -72,32 +72,6 @@ title: Pull Feeds
           })
           .done(function() {
               $countFeeds++;
-
-              // Are we done yet?
-              console.log($countFeeds + ' == ' + $howManyFeeds + ' && ' + $countItems + ' == ' + $howManyItems);
-              if($countFeeds==$howManyFeeds && $countItems == $howManyItems){
-
-                $feedJSON = JSON.stringify($masterFeed, null, 4);
-
-                var github = new Github({token: $oAuth_Token,auth: "oauth"});
-              	var repo = github.getRepo($org,$repo);
-
-                repo.getTree('gh-pages?recursive=true', function(err, tree) {
-
-              		$.each(tree, function(treeKey, treeValue) {
-
-                    $writepath = '_data/feed-entries.json';
-              			$path = treeValue['path'];
-              			$sha = treeValue['sha'];
-
-                    console.log($path + ' == ' + $writepath);
-              			if($path==$writepath)
-              				{
-                      repo.writemanual('gh-pages',$writepath, $feedJSON, 'Save', $sha, function(err) { });
-              				}
-              			});
-              		});
-                }
             })
           .fail(function() {
             // Feed failed for some reason
@@ -109,6 +83,33 @@ title: Pull Feeds
       })
       .done(function() {
           console.log("SUCESS");
+
+          // Are we done yet?
+          console.log($countFeeds + ' == ' + $howManyFeeds + ' && ' + $countItems + ' == ' + $howManyItems);
+          if($countFeeds==$howManyFeeds && $countItems == $howManyItems){
+
+            $feedJSON = JSON.stringify($masterFeed, null, 4);
+
+            var github = new Github({token: $oAuth_Token,auth: "oauth"});
+            var repo = github.getRepo($org,$repo);
+
+            repo.getTree('gh-pages?recursive=true', function(err, tree) {
+
+              $.each(tree, function(treeKey, treeValue) {
+
+                $writepath = '_data/feed-entries.json';
+                $path = treeValue['path'];
+                $sha = treeValue['sha'];
+
+                console.log($path + ' == ' + $writepath);
+                if($path==$writepath)
+                  {
+                  repo.writemanual('gh-pages',$writepath, $feedJSON, 'Save', $sha, function(err) { });
+                  }
+                });
+              });
+            }
+
         })
       .fail(function() {
         console.log("NO GO AT ALL!");
