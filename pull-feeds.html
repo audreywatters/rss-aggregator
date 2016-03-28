@@ -74,7 +74,7 @@ title: Pull Feeds
               $countFeeds++;
 
               // Are we done yet?
-              console.log($countFeeds + ' == ' + $howManyFeeds + ' && ' + $countItems + ' == ' + $howManyItems);
+              //console.log($countFeeds + ' == ' + $howManyFeeds + ' && ' + $countItems + ' == ' + $howManyItems);
               if($countFeeds==$howManyFeeds && $countItems == $howManyItems){
 
                 $feedJSON = JSON.stringify($masterFeed, null, 4);
@@ -90,9 +90,9 @@ title: Pull Feeds
               			$path = treeValue['path'];
               			$sha = treeValue['sha'];
 
-                    console.log($path + ' == ' + $writepath);
               			if($path==$writepath)
               				{
+                      console.log($path + ' == ' + $writepath);
                       document.getElementById('showme').value = $feedJSON;
                       repo.writemanual('gh-pages',$writepath, $feedJSON, 'Save', $sha, function(err) { });
               				}
@@ -102,7 +102,7 @@ title: Pull Feeds
             })
           .fail(function() {
             // Feed failed for some reason
-            console.log("FAIL (probably CORS)");
+            //console.log("FAIL (probably CORS)");
             $howManyFeeds = $howManyFeeds - 1;
 
           });
@@ -112,7 +112,7 @@ title: Pull Feeds
           console.log("SUCESS");
         })
       .fail(function() {
-        console.log("NO GO AT ALL!");
+        //console.log("NO GO AT ALL!");
       });
 
 </script>
