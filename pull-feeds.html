@@ -85,8 +85,8 @@ title: Pull Feeds
           console.log("SUCESS");
 
           // Are we done yet?
-          console.log($countFeeds + ' == ' + $howManyFeeds + ' && ' + $countItems + ' == ' + $howManyItems);
-          if($countFeeds==$howManyFeeds && $countItems == $howManyItems){
+          //console.log($countFeeds + ' == ' + $howManyFeeds + ' && ' + $countItems + ' == ' + $howManyItems);
+          //if($countFeeds==$howManyFeeds && $countItems == $howManyItems){
 
             $feedJSON = JSON.stringify($masterFeed, null, 4);
 
@@ -108,7 +108,7 @@ title: Pull Feeds
                   }
                 });
               });
-            }
+            //}
 
         })
       .fail(function() {
