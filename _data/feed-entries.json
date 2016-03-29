@@ -1,182 +1,182 @@
 [
-    {
-        "feed": "Hack Education",
-        "title": "Hack Education Weekly News",
-        "link": "http://hackeducation.com/2016/03/25/hack-education-weekly-news",
-        "pubDate": "03/25/2016"
-    },
-    {
-        "feed": "Hack Education",
-        "title": "Roaming Autodidacts and Entrepreneurial (L)Earners: The Stories We Tell about Lifelong Learning",
-        "link": "http://hackeducation.com/2016/03/25/lifelong-learning-lol",
-        "pubDate": "03/25/2016"
-    },
-    {
-        "feed": "Hack Education",
-        "title": "'I Love My Label': Resisting the Pre-Packaged Sound in Ed-Tech",
-        "link": "http://hackeducation.com/2016/03/18/i-love-my-label",
-        "pubDate": "03/18/2016"
-    },
-    {
-        "feed": "Hack Education",
-        "title": "The Allure of 'Matrix-Style Learning'",
-        "link": "http://hackeducation.com/2016/03/02/matrix",
-        "pubDate": "03/02/2016"
-    },
-    {
-        "feed": "Hack Education",
-        "title": "Blockchain for Education: A Research Project",
-        "link": "http://hackeducation.com/2016/02/25/blockchain-edu1",
-        "pubDate": "02/25/2016"
-    },
-    {
-        "feed": "API Evangelist",
-        "title": "The Unintended Consequences Of API Patents",
-        "link": "http://apievangelist.com/2016/03/25/the-unintended-consequences-of-api-patents/",
-        "pubDate": "03/24/2016"
-    },
-    {
-        "feed": "API Evangelist",
-        "title": "The More I Gather OpenAPI Specs The More I Realize How We Obsess Over The Unecessary",
-        "link": "http://apievangelist.com/2016/03/25/the-more-i-gather-openapi-specs-the-more-i-realize-how-we-obsess-over-the-unecessary/",
-        "pubDate": "03/24/2016"
-    },
-    {
-        "feed": "API Evangelist",
-        "title": "FullContact But For OpenAPI Specifications",
-        "link": "http://apievangelist.com/2016/03/25/fullcontact-but-for-openapi-specifications/",
-        "pubDate": "03/24/2016"
-    },
-    {
-        "feed": "API Evangelist",
-        "title": "Deploying The API Service Providers That I Depend On Within My Own Infrastructure",
-        "link": "http://apievangelist.com/2016/03/24/deploying-the-api-service-providers-that-i-depend-on-within-my-own-infrastructure/",
-        "pubDate": "03/23/2016"
-    },
-    {
-        "feed": "API Evangelist",
-        "title": "Exposing The Meaningful Skills Our APIs Possess For Use In The Next Gen Messaging And Voice Apps",
-        "link": "http://apievangelist.com/2016/03/23/exposing-the-meaningful-skills-our-apis-possess-for-use-in-the-next-gen-messaging-and-voice-apps/",
-        "pubDate": "03/22/2016"
-    },
-    {
-        "feed": "API Evangelist",
-        "title": "Your Microservices Effort Will Fail If You Only Focus On The Technical Details",
-        "link": "http://apievangelist.com/2016/03/22/your-microservices-effort-will-fail-if-you-only-focus-on-the-technical-details/",
-        "pubDate": "03/21/2016"
-    },
-    {
-        "feed": "API Evangelist",
-        "title": "What I Am Seeing As A Minimum Viable Bot Presence",
-        "link": "http://apievangelist.com/2016/03/22/what-i-am-seeing-as-a-minimum-viable-bot-presence/",
-        "pubDate": "03/21/2016"
-    },
-    {
-        "feed": "API Evangelist",
-        "title": "Savvy API Providers Submit Pull Requests To Update Their OpenAPI Specs In My Github Repo",
-        "link": "http://apievangelist.com/2016/03/22/savvy-api-providers-submit-pull-requests-to-update-their-openapi-specs-in-my-github-repo/",
-        "pubDate": "03/21/2016"
-    },
-    {
-        "feed": "API Evangelist",
-        "title": "I Am Hearing A Lot More Talk About Restricting Free And Freemium Tiers Of API Access",
-        "link": "http://apievangelist.com/2016/03/22/i-am-hearing-a-lot-more-talk-about-restricting-free-and-freemium-tiers-of-api-access/",
-        "pubDate": "03/21/2016"
-    },
-    {
-        "feed": "API Evangelist",
-        "title": "Sucked Into The World Of Bots And APIs",
-        "link": "http://apievangelist.com/2016/03/21/sucked-into-the-world-of-bots-and-apis/",
-        "pubDate": "03/20/2016"
-    },
-    {
-        "feed": "API Evangelist",
-        "title": "Further Simplifying My API Docs And Providing API Samples",
-        "link": "http://apievangelist.com/2016/03/17/further-simplifying-my-api-docs-and-providing-api-samples/",
-        "pubDate": "03/16/2016"
-    },
-    {
-        "feed": "API Evangelist",
-        "title": "Personal APIs Are Not Just A Local Destination, They Are A Journey",
-        "link": "http://apievangelist.com/2016/03/16/personal-api-are-not-just-a-local-destination-they-are-a-journey/",
-        "pubDate": "03/15/2016"
-    },
-    {
-        "feed": "API Evangelist",
-        "title": "Do My APIs Have The Skills They Need To Compete In A Voice And Bot Enabled World?",
-        "link": "http://apievangelist.com/2016/03/14/do-my-apis-have-the-skills-they-need-to-compete-in-a-voice-and-bot-enabled-world/",
-        "pubDate": "03/13/2016"
-    },
-    {
-        "feed": "API Evangelist",
-        "title": "API Definition Driven UI Elements: Path, Verb, And Tag Autocomplete",
-        "link": "http://apievangelist.com/2016/03/14/api-definition-driven-ui-elements-path-verb-and-tag-autocomplete/",
-        "pubDate": "03/13/2016"
-    },
-    {
-        "feed": "API Evangelist",
-        "title": "API Definition Driven Visualizations: Verb Tag Clouds",
-        "link": "http://apievangelist.com/2016/03/13/api-definition-driven-visualizations-verb-tag-clouds/",
-        "pubDate": "03/12/2016"
-    },
-    {
-        "feed": "API Evangelist",
-        "title": "When The Products We Own Use APIs To Order Their Own Replacement Parts (Or Service)",
-        "link": "http://apievangelist.com/2016/03/11/when-the-products-we-own-use-apis-to-order-their-own-replacement-parts-or-service/",
-        "pubDate": "03/10/2016"
-    },
-    {
-        "feed": "API Evangelist",
-        "title": "Datensparsamkeit: Data Minimization",
-        "link": "http://apievangelist.com/2016/03/10/datensparsamkeit-data-minimization/",
-        "pubDate": "03/09/2016"
-    },
-    {
-        "feed": "API Evangelist",
-        "title": "An Imbalance In Investment Priorities That Will Continue To Slow API Growth And Adoption",
-        "link": "http://apievangelist.com/2016/03/10/an-imbalance-in-investment-priorities-that-will-continue-to-slow-api-growth-and-adoption/",
-        "pubDate": "03/09/2016"
-    },
-    {
-        "feed": "API Evangelist",
-        "title": "Adding A Dead Pool Page To Each API Research Area So We Remember The Past",
-        "link": "http://apievangelist.com/2016/03/10/adding-a-dead-pool-page-to-each-api-research-area-so-we-remember-the-past/",
-        "pubDate": "03/09/2016"
-    },
-    {
-        "feed": "API Evangelist",
-        "title": "While It Does Suck Parse Went Away, I Wish Every Service That Shutdown Left Behind The Same Page",
-        "link": "http://apievangelist.com/2016/03/08/while-it-does-suck-parse-went-away-i-wish-every-service-that-shutdown-left-behind-the-same-page/",
-        "pubDate": "03/07/2016"
-    },
-    {
-        "feed": "API Evangelist",
-        "title": "Playing With Concepts Around Simplifying The API Docs That Are Generated Using API Definitions",
-        "link": "http://apievangelist.com/2016/03/08/playing-with-concepts-around-simplifying-the-api-docs-that-are-generated-using-api-definitions/",
-        "pubDate": "03/07/2016"
-    },
-    {
-        "feed": "API Evangelist",
-        "title": "New Icons For Helping Me Communicate How Open Or Closed An API Is",
-        "link": "http://apievangelist.com/2016/03/08/new-icons-for-helping-me-communicate-how-open-or-closed-an-api-is/",
-        "pubDate": "03/07/2016"
-    },
-    {
-        "feed": "API Evangelist",
-        "title": "Four Buckets To Organize My API Deployment Research Into",
-        "link": "http://apievangelist.com/2016/03/08/four-buckets-to-organize-my-api-deployment-research-into/",
-        "pubDate": "03/07/2016"
-    },
-    {
-        "feed": "API Evangelist",
-        "title": "Thinking Through The Design Of Your Pricing API Would Help You Think Through Your API Plan",
-        "link": "http://apievangelist.com/2016/03/07/thinking-through-the-design-of-your-pricing-api-would-help-you-think-through-your-api-plan/",
-        "pubDate": "03/06/2016"
-    },
-    {
-        "feed": "API Evangelist",
-        "title": "The 70 Platforms With Job Postings For A Developer Evangelist Or Advocate Currently",
-        "link": "http://apievangelist.com/2016/03/07/the-70-platforms-with-job-postings-for-a-developer-evangelist-or-advocate-currently/",
-        "pubDate": "03/06/2016"
-    }
+  {
+    "feed": "Hack Education",
+    "title": "Hack Education Weekly News",
+    "link": "http://hackeducation.com/2016/03/25/hack-education-weekly-news",
+    "pubDate": "03/25/2016"
+  },
+  {
+    "feed": "Hack Education",
+    "title": "Roaming Autodidacts and Entrepreneurial (L)Earners: The Stories We Tell about Lifelong Learning",
+    "link": "http://hackeducation.com/2016/03/25/lifelong-learning-lol",
+    "pubDate": "03/25/2016"
+  },
+  {
+    "feed": "Hack Education",
+    "title": "'I Love My Label': Resisting the Pre-Packaged Sound in Ed-Tech",
+    "link": "http://hackeducation.com/2016/03/18/i-love-my-label",
+    "pubDate": "03/18/2016"
+  },
+  {
+    "feed": "Hack Education",
+    "title": "The Allure of 'Matrix-Style Learning'",
+    "link": "http://hackeducation.com/2016/03/02/matrix",
+    "pubDate": "03/02/2016"
+  },
+  {
+    "feed": "Hack Education",
+    "title": "Blockchain for Education: A Research Project",
+    "link": "http://hackeducation.com/2016/02/25/blockchain-edu1",
+    "pubDate": "02/25/2016"
+  },
+  {
+    "feed": "API Evangelist",
+    "title": "The Unintended Consequences Of API Patents",
+    "link": "http://apievangelist.com/2016/03/25/the-unintended-consequences-of-api-patents/",
+    "pubDate": "03/24/2016"
+  },
+  {
+    "feed": "API Evangelist",
+    "title": "The More I Gather OpenAPI Specs The More I Realize How We Obsess Over The Unecessary",
+    "link": "http://apievangelist.com/2016/03/25/the-more-i-gather-openapi-specs-the-more-i-realize-how-we-obsess-over-the-unecessary/",
+    "pubDate": "03/24/2016"
+  },
+  {
+    "feed": "API Evangelist",
+    "title": "FullContact But For OpenAPI Specifications",
+    "link": "http://apievangelist.com/2016/03/25/fullcontact-but-for-openapi-specifications/",
+    "pubDate": "03/24/2016"
+  },
+  {
+    "feed": "API Evangelist",
+    "title": "Deploying The API Service Providers That I Depend On Within My Own Infrastructure",
+    "link": "http://apievangelist.com/2016/03/24/deploying-the-api-service-providers-that-i-depend-on-within-my-own-infrastructure/",
+    "pubDate": "03/23/2016"
+  },
+  {
+    "feed": "API Evangelist",
+    "title": "Exposing The Meaningful Skills Our APIs Possess For Use In The Next Gen Messaging And Voice Apps",
+    "link": "http://apievangelist.com/2016/03/23/exposing-the-meaningful-skills-our-apis-possess-for-use-in-the-next-gen-messaging-and-voice-apps/",
+    "pubDate": "03/22/2016"
+  },
+  {
+    "feed": "API Evangelist",
+    "title": "Your Microservices Effort Will Fail If You Only Focus On The Technical Details",
+    "link": "http://apievangelist.com/2016/03/22/your-microservices-effort-will-fail-if-you-only-focus-on-the-technical-details/",
+    "pubDate": "03/21/2016"
+  },
+  {
+    "feed": "API Evangelist",
+    "title": "What I Am Seeing As A Minimum Viable Bot Presence",
+    "link": "http://apievangelist.com/2016/03/22/what-i-am-seeing-as-a-minimum-viable-bot-presence/",
+    "pubDate": "03/21/2016"
+  },
+  {
+    "feed": "API Evangelist",
+    "title": "Savvy API Providers Submit Pull Requests To Update Their OpenAPI Specs In My Github Repo",
+    "link": "http://apievangelist.com/2016/03/22/savvy-api-providers-submit-pull-requests-to-update-their-openapi-specs-in-my-github-repo/",
+    "pubDate": "03/21/2016"
+  },
+  {
+    "feed": "API Evangelist",
+    "title": "I Am Hearing A Lot More Talk About Restricting Free And Freemium Tiers Of API Access",
+    "link": "http://apievangelist.com/2016/03/22/i-am-hearing-a-lot-more-talk-about-restricting-free-and-freemium-tiers-of-api-access/",
+    "pubDate": "03/21/2016"
+  },
+  {
+    "feed": "API Evangelist",
+    "title": "Sucked Into The World Of Bots And APIs",
+    "link": "http://apievangelist.com/2016/03/21/sucked-into-the-world-of-bots-and-apis/",
+    "pubDate": "03/20/2016"
+  },
+  {
+    "feed": "API Evangelist",
+    "title": "Further Simplifying My API Docs And Providing API Samples",
+    "link": "http://apievangelist.com/2016/03/17/further-simplifying-my-api-docs-and-providing-api-samples/",
+    "pubDate": "03/16/2016"
+  },
+  {
+    "feed": "API Evangelist",
+    "title": "Personal APIs Are Not Just A Local Destination, They Are A Journey",
+    "link": "http://apievangelist.com/2016/03/16/personal-api-are-not-just-a-local-destination-they-are-a-journey/",
+    "pubDate": "03/15/2016"
+  },
+  {
+    "feed": "API Evangelist",
+    "title": "Do My APIs Have The Skills They Need To Compete In A Voice And Bot Enabled World?",
+    "link": "http://apievangelist.com/2016/03/14/do-my-apis-have-the-skills-they-need-to-compete-in-a-voice-and-bot-enabled-world/",
+    "pubDate": "03/13/2016"
+  },
+  {
+    "feed": "API Evangelist",
+    "title": "API Definition Driven UI Elements: Path, Verb, And Tag Autocomplete",
+    "link": "http://apievangelist.com/2016/03/14/api-definition-driven-ui-elements-path-verb-and-tag-autocomplete/",
+    "pubDate": "03/13/2016"
+  },
+  {
+    "feed": "API Evangelist",
+    "title": "API Definition Driven Visualizations: Verb Tag Clouds",
+    "link": "http://apievangelist.com/2016/03/13/api-definition-driven-visualizations-verb-tag-clouds/",
+    "pubDate": "03/12/2016"
+  },
+  {
+    "feed": "API Evangelist",
+    "title": "When The Products We Own Use APIs To Order Their Own Replacement Parts (Or Service)",
+    "link": "http://apievangelist.com/2016/03/11/when-the-products-we-own-use-apis-to-order-their-own-replacement-parts-or-service/",
+    "pubDate": "03/10/2016"
+  },
+  {
+    "feed": "API Evangelist",
+    "title": "Datensparsamkeit: Data Minimization",
+    "link": "http://apievangelist.com/2016/03/10/datensparsamkeit-data-minimization/",
+    "pubDate": "03/09/2016"
+  },
+  {
+    "feed": "API Evangelist",
+    "title": "An Imbalance In Investment Priorities That Will Continue To Slow API Growth And Adoption",
+    "link": "http://apievangelist.com/2016/03/10/an-imbalance-in-investment-priorities-that-will-continue-to-slow-api-growth-and-adoption/",
+    "pubDate": "03/09/2016"
+  },
+  {
+    "feed": "API Evangelist",
+    "title": "Adding A Dead Pool Page To Each API Research Area So We Remember The Past",
+    "link": "http://apievangelist.com/2016/03/10/adding-a-dead-pool-page-to-each-api-research-area-so-we-remember-the-past/",
+    "pubDate": "03/09/2016"
+  },
+  {
+    "feed": "API Evangelist",
+    "title": "While It Does Suck Parse Went Away, I Wish Every Service That Shutdown Left Behind The Same Page",
+    "link": "http://apievangelist.com/2016/03/08/while-it-does-suck-parse-went-away-i-wish-every-service-that-shutdown-left-behind-the-same-page/",
+    "pubDate": "03/07/2016"
+  },
+  {
+    "feed": "API Evangelist",
+    "title": "Playing With Concepts Around Simplifying The API Docs That Are Generated Using API Definitions",
+    "link": "http://apievangelist.com/2016/03/08/playing-with-concepts-around-simplifying-the-api-docs-that-are-generated-using-api-definitions/",
+    "pubDate": "03/07/2016"
+  },
+  {
+    "feed": "API Evangelist",
+    "title": "New Icons For Helping Me Communicate How Open Or Closed An API Is",
+    "link": "http://apievangelist.com/2016/03/08/new-icons-for-helping-me-communicate-how-open-or-closed-an-api-is/",
+    "pubDate": "03/07/2016"
+  },
+  {
+    "feed": "API Evangelist",
+    "title": "Four Buckets To Organize My API Deployment Research Into",
+    "link": "http://apievangelist.com/2016/03/08/four-buckets-to-organize-my-api-deployment-research-into/",
+    "pubDate": "03/07/2016"
+  },
+  {
+    "feed": "API Evangelist",
+    "title": "Thinking Through The Design Of Your Pricing API Would Help You Think Through Your API Plan",
+    "link": "http://apievangelist.com/2016/03/07/thinking-through-the-design-of-your-pricing-api-would-help-you-think-through-your-api-plan/",
+    "pubDate": "03/06/2016"
+  },
+  {
+    "feed": "API Evangelist",
+    "title": "The 70 Platforms With Job Postings For A Developer Evangelist Or Advocate Currently",
+    "link": "http://apievangelist.com/2016/03/07/the-70-platforms-with-job-postings-for-a-developer-evangelist-or-advocate-currently/",
+    "pubDate": "03/06/2016"
+  }
 ]
