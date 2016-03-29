@@ -77,7 +77,8 @@ title: Pull Feeds
               console.log($countFeeds + ' == ' + $howManyFeeds + ' && ' + $countItems + ' == ' + $howManyItems);
               if($countFeeds==$howManyFeeds && $countItems == $howManyItems){
                 $feedJSON = JSON.stringify($masterFeed, null, 4);
-
+                $feedJSON = unescape(encodeURIComponent($feedJSON));
+                
                 var github = new Github({token: $oAuth_Token,auth: "oauth"});
               	var repo = github.getRepo($org,$repo);
 
