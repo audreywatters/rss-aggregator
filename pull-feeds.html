@@ -71,8 +71,6 @@ title: Pull Feeds
               $('#process-feeds').append($feedItem);
 
               $countItems ++;
-
-              });
             });
           })
           .done(function() {
@@ -106,6 +104,7 @@ title: Pull Feeds
             //console.log("FAIL (probably CORS)");
             $howManyFeeds = $howManyFeeds - 1;
 
+          });
           });
         });
       })
