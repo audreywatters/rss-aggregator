@@ -33,7 +33,7 @@ title: Pull Feeds
 
           // RAW is only way we can get at _data
           $feedurls = 'https://raw.githubusercontent.com/indieedtech/rss-aggregator/gh-pages/_data/feed-entries.json';
-          var allFeeds = $.get($feedurls, function (feeds) {
+          var thisData = $.get($feedurls, function (feeds) {
 
             $masterFeed = JSON.parse(feeds);
 
@@ -71,40 +71,40 @@ title: Pull Feeds
               $('#process-feeds').append($feedItem);
 
               $countItems ++;
-            });
-          })
-          .done(function() {
-
-              $countFeeds++;
-
-              $feedJSON = JSON.stringify($masterFeed, null, 4);
-
-              var github = new Github({token: $oAuth_Token,auth: "oauth"});
-              var repo = github.getRepo($org,$repo);
-
-              repo.getTree('gh-pages?recursive=true', function(err, tree) {
-
-                $.each(tree, function(treeKey, treeValue) {
-
-                  $writepath = '_data/feed-entries.json';
-                  $path = treeValue['path'];
-                  $sha = treeValue['sha'];
-                  //console.log($path + ' == ' + $writepath);
-                  if($path==$writepath)
-                    {
-                    console.log($path + ' == ' + $writepath);
-                    document.getElementById('showme').value = $feedJSON;
-                    repo.writemanual('gh-pages',$writepath, $feedJSON, 'Save', $sha, function(err) { });
-                    }
-                  });
-                });
+              });
             })
-          .fail(function() {
-            // Feed failed for some reason
-            //console.log("FAIL (probably CORS)");
-            $howManyFeeds = $howManyFeeds - 1;
+            .done(function() {
 
-          });
+                $countFeeds++;
+
+                $feedJSON = JSON.stringify($masterFeed, null, 4);
+
+                var github = new Github({token: $oAuth_Token,auth: "oauth"});
+                var repo = github.getRepo($org,$repo);
+
+                repo.getTree('gh-pages?recursive=true', function(err, tree) {
+
+                  $.each(tree, function(treeKey, treeValue) {
+
+                    $writepath = '_data/feed-entries.json';
+                    $path = treeValue['path'];
+                    $sha = treeValue['sha'];
+                    //console.log($path + ' == ' + $writepath);
+                    if($path==$writepath)
+                      {
+                      console.log($path + ' == ' + $writepath);
+                      document.getElementById('showme').value = $feedJSON;
+                      repo.writemanual('gh-pages',$writepath, $feedJSON, 'Save', $sha, function(err) { });
+                      }
+                    });
+                  });
+              })
+            .fail(function() {
+              // Feed failed for some reason
+              //console.log("FAIL (probably CORS)");
+              $howManyFeeds = $howManyFeeds - 1;
+
+            });
           });
         });
       })
