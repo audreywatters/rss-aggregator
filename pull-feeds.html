@@ -13,6 +13,7 @@ title: Pull Feeds
     $feedurls = 'https://raw.githubusercontent.com/indieedtech/rss-aggregator/gh-pages/_data/feed-urls.json';
 
     var allFeeds = $.get($feedurls, function (feeds) {
+      console.log("here!");
 
       $feedsJSON = JSON.parse(feeds);
 
