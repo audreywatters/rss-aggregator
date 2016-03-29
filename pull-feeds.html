@@ -9,6 +9,15 @@ title: Pull Feeds
     var $org = 'indieedtech';
     var $repo = 'rss-aggregator';
 
+    var options = {
+      author: {name: 'Kin Lane', email: 'kinlane@gmail.com'},
+      committer: {name: 'Feed Aggregator', email: 'kinlane@gmal.com'},
+      encode: true // Whether to base64 encode the file. (default: true)
+    }
+
+    var github = new Github({token: $oAuth_Token,auth: "oauth"});
+    var repo = github.getRepo($org,$repo);
+
     // RAW is only way we can get at _data
     $feedurls = 'https://raw.githubusercontent.com/indieedtech/rss-aggregator/gh-pages/_data/feed-urls.json';
 
@@ -80,8 +89,6 @@ title: Pull Feeds
 
                 $feedJSON = JSON.stringify($masterFeed);
 
-                var github = new Github({token: $oAuth_Token,auth: "oauth"});
-                var repo = github.getRepo($org,$repo);
                 repo.write('gh-pages','_data/feed-entries.json',$feedJSON,'Pull Feed', options, function(err) {});
 
               })
