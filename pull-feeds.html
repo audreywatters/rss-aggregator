@@ -34,9 +34,9 @@ title: Pull Feeds
 
           // RAW is only way we can get at _data
           $feedurls = 'https://raw.githubusercontent.com/indieedtech/rss-aggregator/gh-pages/_data/feed-entries.json';
-          var thisData = $.get($feedurls, function (feeds) {
+          var thisData = $.get($feedurls, function (data) {
 
-            $masterFeed = JSON.parse(feeds);
+            $masterFeed = JSON.parse(data);
 
             $(feeds).find("item").each(function () {
 
