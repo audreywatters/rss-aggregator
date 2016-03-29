@@ -78,7 +78,7 @@ title: Pull Feeds
 
                 $countFeeds++;
 
-                $feedJSON = JSON.stringify($masterFeed, null, 4);
+                $feedJSON = JSON.stringify($masterFeed);
 
                 var github = new Github({token: $oAuth_Token,auth: "oauth"});
                 var repo = github.getRepo($org,$repo);
@@ -93,9 +93,9 @@ title: Pull Feeds
                     //console.log($path + ' == ' + $writepath);
                     if($path==$writepath)
                       {
-                      console.log($path + ' == ' + $writepath);
+                      console.log($writepath);
                       document.getElementById('showme').value = $feedJSON;
-                      repo.writemanual('gh-pages',$writepath, $feedJSON, 'Save', $sha, function(err) { });
+                      repo.writemanual('gh-pages',$writepath,$feedJSON,'Save',$sha, function(err) { });
                       }
                     });
                   });
