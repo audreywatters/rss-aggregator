@@ -4,10 +4,10 @@ title: Project Updates
 ---
 <h3>Project Updates</h3>
 <p>These are the updates for this project work, to build a simple RSS Aggregator. I will work to add any updates as I make them to this blog, using Jekyll as a project log.</p>
+<hr />
 {% for post in paginator.posts %}
   {% if post.title != null %}
-      <p><strong>{{ post.title }}</strong></p>
-      <span class="post-date"><strong>{{ post.date | date_to_string }}</strong></span>
+      <p><strong>{{ post.title }}</strong> (<i>{{ post.date | date_to_string }}</i>)</p>
       {{ post.content }}
       <hr />
   {% endif %}
