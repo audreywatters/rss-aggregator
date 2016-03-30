@@ -150,64 +150,34 @@
         "pubDate": "03/07/2016"
     },
     {
-        "feed": "CogDogBlog",
-        "title": "Google Saves",
-        "link": "http://cogdogblog.com/2016/03/google-saves/",
-        "pubDate": "03/29/2016"
-    },
-    {
-        "feed": "CogDogBlog",
-        "title": "What Your Group’s Passionate Arguments Look Like",
-        "link": "http://cogdogblog.com/2016/03/passionate-arguments/",
-        "pubDate": "03/29/2016"
-    },
-    {
-        "feed": "CogDogBlog",
-        "title": "Piles of Things",
-        "link": "http://cogdogblog.com/2016/03/piles-of-things/",
-        "pubDate": "03/29/2016"
-    },
-    {
-        "feed": "CogDogBlog",
-        "title": "Playing With Programmable URLs",
-        "link": "http://cogdogblog.com/2016/03/playing-with-programmable-urls/",
-        "pubDate": "03/28/2016"
-    },
-    {
-        "feed": "CogDogBlog",
-        "title": "Instagrump: Share Give Away Photos You Cannot Find, Search, or License",
-        "link": "http://cogdogblog.com/2016/03/instagrump/",
-        "pubDate": "03/28/2016"
-    },
-    {
-        "feed": "CogDogBlog",
-        "title": "In Who? Our Data We Trust? / My Ex’s Zip Disk Files",
-        "link": "http://cogdogblog.com/2016/03/in-who-our-data-we-trust/",
+        "feed": "Hack Education",
+        "title": "Hack Education Weekly News",
+        "link": "http://hackeducation.com/2016/03/25/hack-education-weekly-news",
         "pubDate": "03/25/2016"
     },
     {
-        "feed": "CogDogBlog",
-        "title": "Hello / Goodbye iPhone",
-        "link": "http://cogdogblog.com/2016/03/hello-goodbye-iphone/",
+        "feed": "Hack Education",
+        "title": "Roaming Autodidacts and Entrepreneurial (L)Earners: The Stories We Tell about Lifelong Learning",
+        "link": "http://hackeducation.com/2016/03/25/lifelong-learning-lol",
         "pubDate": "03/25/2016"
     },
     {
-        "feed": "CogDogBlog",
-        "title": "Help Me Yoda-Kin, Can The JED-API Power a Certification?",
-        "link": "http://cogdogblog.com/2016/03/yoda-kin/",
-        "pubDate": "03/24/2016"
+        "feed": "Hack Education",
+        "title": "'I Love My Label': Resisting the Pre-Packaged Sound in Ed-Tech",
+        "link": "http://hackeducation.com/2016/03/18/i-love-my-label",
+        "pubDate": "03/18/2016"
     },
     {
-        "feed": "CogDogBlog",
-        "title": "Not Holding My Breath Waiting For Facebook’s New Account Impersonation Detection",
-        "link": "http://cogdogblog.com/2016/03/facebooks-account-impersonation-detection/",
-        "pubDate": "03/23/2016"
+        "feed": "Hack Education",
+        "title": "The Allure of 'Matrix-Style Learning'",
+        "link": "http://hackeducation.com/2016/03/02/matrix",
+        "pubDate": "03/02/2016"
     },
     {
-        "feed": "CogDogBlog",
-        "title": "VConnecting Today to #DigPed Cairo: “Fermenting Ideas in the Middle Yeast”",
-        "link": "http://cogdogblog.com/2016/03/vconnecting-to-cairo/",
-        "pubDate": "03/23/2016"
+        "feed": "Hack Education",
+        "title": "Blockchain for Education: A Research Project",
+        "link": "http://hackeducation.com/2016/02/25/blockchain-edu1",
+        "pubDate": "02/25/2016"
     },
     {
         "feed": "Adam Croom",
@@ -328,5 +298,125 @@
         "title": "Shifting out of IFTTT",
         "link": "http://bionicteaching.com/shifting-out-of-ifttt/",
         "pubDate": "03/20/2016"
+    },
+    {
+        "feed": "CogDogBlog",
+        "title": "Me on Futzing",
+        "link": "http://cogdogblog.com/2016/03/me-on-futzing/",
+        "pubDate": "03/29/2016"
+    },
+    {
+        "feed": "CogDogBlog",
+        "title": "Google Saves",
+        "link": "http://cogdogblog.com/2016/03/google-saves/",
+        "pubDate": "03/29/2016"
+    },
+    {
+        "feed": "CogDogBlog",
+        "title": "What Your Group’s Passionate Arguments Look Like",
+        "link": "http://cogdogblog.com/2016/03/passionate-arguments/",
+        "pubDate": "03/29/2016"
+    },
+    {
+        "feed": "CogDogBlog",
+        "title": "Piles of Things",
+        "link": "http://cogdogblog.com/2016/03/piles-of-things/",
+        "pubDate": "03/29/2016"
+    },
+    {
+        "feed": "CogDogBlog",
+        "title": "Playing With Programmable URLs",
+        "link": "http://cogdogblog.com/2016/03/playing-with-programmable-urls/",
+        "pubDate": "03/28/2016"
+    },
+    {
+        "feed": "CogDogBlog",
+        "title": "Instagrump: Share Give Away Photos You Cannot Find, Search, or License",
+        "link": "http://cogdogblog.com/2016/03/instagrump/",
+        "pubDate": "03/28/2016"
+    },
+    {
+        "feed": "CogDogBlog",
+        "title": "In Who? Our Data We Trust? / My Ex’s Zip Disk Files",
+        "link": "http://cogdogblog.com/2016/03/in-who-our-data-we-trust/",
+        "pubDate": "03/26/2016"
+    },
+    {
+        "feed": "CogDogBlog",
+        "title": "Hello / Goodbye iPhone",
+        "link": "http://cogdogblog.com/2016/03/hello-goodbye-iphone/",
+        "pubDate": "03/25/2016"
+    },
+    {
+        "feed": "CogDogBlog",
+        "title": "Help Me Yoda-Kin, Can The JED-API Power a Certification?",
+        "link": "http://cogdogblog.com/2016/03/yoda-kin/",
+        "pubDate": "03/25/2016"
+    },
+    {
+        "feed": "CogDogBlog",
+        "title": "Not Holding My Breath Waiting For Facebook’s New Account Impersonation Detection",
+        "link": "http://cogdogblog.com/2016/03/facebooks-account-impersonation-detection/",
+        "pubDate": "03/24/2016"
+    },
+    {
+        "feed": "bavatuesdays",
+        "title": "The View from Here",
+        "link": "http://bavatuesdays.com/the-view-from-here/",
+        "pubDate": "03/29/2016"
+    },
+    {
+        "feed": "bavatuesdays",
+        "title": "She-Devil with a Wallet",
+        "link": "http://bavatuesdays.com/she-devil-with-a-wallet/",
+        "pubDate": "03/25/2016"
+    },
+    {
+        "feed": "bavatuesdays",
+        "title": "Lo-fi Ed”-“Tech",
+        "link": "http://bavatuesdays.com/lo-fi-ed-tech/",
+        "pubDate": "03/24/2016"
+    },
+    {
+        "feed": "bavatuesdays",
+        "title": "The Personal in Indie",
+        "link": "http://bavatuesdays.com/the-personal-in-indie/",
+        "pubDate": "03/24/2016"
+    },
+    {
+        "feed": "bavatuesdays",
+        "title": "Hosting VCU’s Ram Pages",
+        "link": "http://bavatuesdays.com/hosting-vcus-ram-pages/",
+        "pubDate": "03/17/2016"
+    },
+    {
+        "feed": "bavatuesdays",
+        "title": "Networked Learning 2016 Hot Seat: Clouds, Containers, and APIs, Oh My!",
+        "link": "http://bavatuesdays.com/networked-learning-2016-hot-seat-clouds-containers-and-apis-oh-my/",
+        "pubDate": "03/11/2016"
+    },
+    {
+        "feed": "bavatuesdays",
+        "title": "CPanel’s Transfer Tool",
+        "link": "http://bavatuesdays.com/cpanels-transfer-tool/",
+        "pubDate": "03/10/2016"
+    },
+    {
+        "feed": "bavatuesdays",
+        "title": "How CUNY Grad Center Fellowships Changed the Course of Edtech History",
+        "link": "http://bavatuesdays.com/how-cuny-grad-center-fellowships-changed-the-course-of-edtech-history/",
+        "pubDate": "03/10/2016"
+    },
+    {
+        "feed": "bavatuesdays",
+        "title": "Inside Reclaim Records",
+        "link": "http://bavatuesdays.com/inside-reclaim-records/",
+        "pubDate": "03/08/2016"
+    },
+    {
+        "feed": "bavatuesdays",
+        "title": "Creating a Reseller Account in CPanel",
+        "link": "http://bavatuesdays.com/creating-a-reseller-account-in-cpanel/",
+        "pubDate": "03/08/2016"
     }
 ]
