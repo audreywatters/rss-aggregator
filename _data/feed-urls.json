@@ -1,38 +1,46 @@
 [
   {
-    "name": "API Evangelist",
-    "url": "http://apievangelist.com/blog.xml"
+    "name": "Audrey Watters",
+    "url": "http://audreywatters.com/feed.xml"
   },
   {
     "name": "Hack Education",
     "url": "http://hackeducation.com/feed.xml"
   },
   {
-    "name": "Bionic Teaching",
-    "url": "http://bionicteaching.com/feed/"
+    "name": "Hack Education Weekly Newsletters",
+    "url": "news.hackeducation.com/feed.xml"
   },
   {
-    "name": "Indie Educational Technology",
-    "url": "http://kelly.flanagan.io/2016/indie-educational-technology?_t=rss"
+    "name": "Ed-Tech Funding",
+    "url": "http://funding.hackeducation.com/feed.xml"
   },
   {
-    "name": "bavatuesdays",
-    "url": "http://bavatuesdays.com/feed/"
+    "name": "Ed-Tech Research",
+    "url": "http://research.hackeducation.com/feed.xml"
   },
   {
-    "name": "Throw Out The Manual",
-    "url": "https://blog.timowens.io/rss/"
+    "name": "The Best of Hack Education (Speeches)",
+    "url": "http://speaking.hackeducation.com/feed.xml"
   },
   {
-    "name": "Olga M Belikov",
-    "url": "http://olgambelikov.net/feed/"
+    "name": "The Best of Hack Education (Writing)",
+    "url": "http://writing.hackeducation.com/feed.xml"
   },
   {
-    "name": "CogDogBlog",
-    "url": "http://cogdogblog.com/feed/"
+    "name": "Ed-Tech Industry Matrix",
+    "url": "http://matrix.hackeducation.com/feed.xml"
+  },
+    {
+    "name": "Ed-Tech Guide",
+    "url": "http://guide.hackeducation.com/feed.xml"
   },
    {
-    "name": "Adam Croom",
-    "url": "http://adamcroom.com/feed/"
+    "name": "Ed-Tech, WTF",
+    "url": "http://edtech.wtf/feed.xml"
+  },
+    {
+    "name": "Top Ed-Tech Trends of 2016",
+    "url": "http://2016trends.hackeducation.com/feed.xml"
   }
 ]
