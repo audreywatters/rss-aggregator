@@ -1,10 +1,10 @@
 title:        RSS Aggregator
-url:          http://indieedtech.github.io/rss-aggregator/
+url:          http://audreywatters.github.io/rss-aggregator/
 
 version:      1.1.1
 author:
-  name:       'Kin Lane'
-  email:      'info@apievangelist.com'
+  name:       'Audrey Watters'
+  email:      'mail@audreywatters.com'
 markdown:     kramdown
 
 permalink: /:categories/:year/:month/:day/:title/
