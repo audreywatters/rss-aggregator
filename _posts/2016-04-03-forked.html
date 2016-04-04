@@ -1,0 +1,15 @@
+---
+layout: post
+title: Forked
+---
+<p>I've forked this project from the Indie Ed-Tech RSS Aggregator, but I had to make several tweaks in order to get it to work.</p>
+
+<p>My goal: create an aggregation of all the feeds across all my various websites/projects. These all run on GitHub pages.</p>
+
+<p>1. I updated the file in the _data folder: <a href="https://github.com/audreywatters/rss-aggregator/blob/gh-pages/_data/feed-urls.json">feeds-urls.json</a> with the feeds I wanted.</p>
+
+<p>2. I updated the <a href="https://github.com/audreywatters/rss-aggregator/blob/gh-pages/pull-feeds/index.html">index</a> file in the pull-feeds folder. Here I changed the variable $org from "indieedtech" to my GitHub user name. I also updated the URLs to reflect this repo rather than the original one at indieedtech.github.io.</p>
+
+<p>3. I updated the URLs in the first blog post in the repo so that these pointed to this repo too. I hit the "pull feeds" link in order to trigger the process.</p>
+
+<p>4. Troubleshooting: I had some problems getting all the feeds to come through. Turns out that Privacy Badger had blocklisted these (probably because of cross-site scripting dangers).</p>
