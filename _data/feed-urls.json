@@ -8,16 +8,20 @@
     "url": "http://hackeducation.com/feed.xml"
   },
   {
-    "name": "Hack Education Weekly Newsletters",
-    "url": "http://news.hackeducation.com/feed.xml"
-  },
-  {
     "name": "Ed-Tech Funding",
     "url": "http://funding.hackeducation.com/feed.xml"
   },
   {
+    "name": "Top Ed-Tech Trends of 2016",
+    "url": "http://2016trends.hackeducation.com/feed.xml"
+  },
+  {
     "name": "Ed-Tech Research",
     "url": "http://research.hackeducation.com/feed.xml"
+  },
+  {
+    "name": "Teaching Machines",
+    "url": "http://teachingmachin.es/feed.xml"
   },
   {
     "name": "The Best of Hack Education (Speeches)",
@@ -28,19 +32,67 @@
     "url": "http://writing.hackeducation.com/feed.xml"
   },
   {
+    "name": "Horizon Report Data Liberation Project",
+    "url": "http://horizon.hackeducation.com/feed.xml"
+  },
+  {
+    "name": "Ed-Tech and Science Fiction",
+    "url": "http://sf.hackeducation.com/feed.xml"
+  },
+  {
+    "name": "Hack Education Weekly Newsletters",
+    "url": "http://news.hackeducation.com/feed.xml"
+  },
+  {
     "name": "Ed-Tech Industry Matrix",
     "url": "http://matrix.hackeducation.com/feed.xml"
   },
-    {
+  {
     "name": "Ed-Tech Guide",
     "url": "http://guide.hackeducation.com/feed.xml"
   },
-   {
+  {
     "name": "Ed-Tech, WTF",
     "url": "http://edtech.wtf/feed.xml"
   },
-    {
-    "name": "Top Ed-Tech Trends of 2016",
-    "url": "http://2016trends.hackeducation.com/feed.xml"
+  {
+    "name": "Pigeons... Click",
+    "url": "http://pigeons.click/feed.xml"
+  },
+  {
+    "name": "Top Ed-Tech Trends of 2015",
+    "url": "http://2015trends.hackeducation.com/feed.xml"
+  },
+  {
+    "name": "Top Ed-Tech Trends of 2014",
+    "url": "http://2014trends.hackeducation.com/feed.xml"
+  },
+  {
+    "name": "Top Ed-Tech Trends of 2013",
+    "url": "http://2013trends.hackeducation.com/feed.xml"
+  },
+  {
+    "name": "Top Ed-Tech Trends of 2012",
+    "url": "http://2012trends.hackeducation.com/feed.xml"
+  },
+  {
+    "name": "Top Ed-Tech Trends of 2011",
+    "url": "http://2011trends.hackeducation.com/feed.xml"
+  },
+  {
+    "name": "Top Ed-Tech Trends of 2010",
+    "url": "http://2010trends.hackeducation.com/feed.xml"
+  },
+  {
+    "name": "The Monsters of Education Technology",
+    "url": "http://monsters.hackeducation.com/feed.xml"
+  },
+  {
+    "name": "The Revenge of the Monsters of Education Technology",
+    "url": "http://monsters2.hackeducation.com/feed.xml"
+  },
+  {
+    "name": "Claim Your Domain",
+    "url": "http://reclaim.hackeducation.com/feed.xml"
   }
 ]
