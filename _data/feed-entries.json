@@ -1,11 +1,5 @@
 [
     {
-        "feed": "Audrey Watters",
-        "title": "My Week in Review",
-        "link": "http://audreywatters.com/2016/04/03/week-in-review",
-        "pubDate": "04/03/2016"
-    },
-    {
         "feed": "Hack Education",
         "title": "Hack Education Weekly News",
         "link": "http://hackeducation.com/2016/04/01/hack-education-weekly-news",
@@ -34,24 +28,6 @@
         "title": "Blockchain for Education: A Research Project",
         "link": "http://hackeducation.com/2016/02/25/blockchain-edu1",
         "pubDate": "02/25/2016"
-    },
-    {
-        "feed": "Hack Education Weekly Newsletters",
-        "title": "Update to Newsletter Project",
-        "link": "http://news.hackeducation.com/2016/03/06/update-project",
-        "pubDate": "03/05/2016"
-    },
-    {
-        "feed": "Hack Education Weekly Newsletters",
-        "title": "All the Newsletters (2015)",
-        "link": "http://news.hackeducation.com/2015/11/24/newsletters",
-        "pubDate": "11/23/2015"
-    },
-    {
-        "feed": "Hack Education Weekly Newsletters",
-        "title": "Hack Education Weekly News",
-        "link": "http://news.hackeducation.com/2015/03/14/newsletter",
-        "pubDate": "03/14/2015"
     },
     {
         "feed": "Ed-Tech Funding",
@@ -84,21 +60,27 @@
         "pubDate": "12/25/2015"
     },
     {
-        "feed": "Ed-Tech Research",
-        "title": "Blockchain, Continued",
-        "link": "http://research.hackeducation.com/2016/04/03/blockchain-continued",
-        "pubDate": "04/03/2016"
+        "feed": "Top Ed-Tech Trends of 2016",
+        "title": "Trend to Watch: Disrupting Procurement",
+        "link": "http://2016trends.hackeducation.com/2016/03/08/procurement",
+        "pubDate": "03/08/2016"
     },
     {
-        "feed": "Ed-Tech Research",
-        "title": "Blockchain",
-        "link": "http://research.hackeducation.com/2016/02/28/blockchain",
-        "pubDate": "02/28/2016"
+        "feed": "Top Ed-Tech Trends of 2016",
+        "title": "The View from Mid-February",
+        "link": "http://2016trends.hackeducation.com/2016/02/16/february-thoughts",
+        "pubDate": "02/16/2016"
     },
     {
-        "feed": "Ed-Tech Research",
+        "feed": "Top Ed-Tech Trends of 2016",
+        "title": "New Project",
+        "link": "http://2016trends.hackeducation.com/2015/12/24/new-project",
+        "pubDate": "12/24/2015"
+    },
+    {
+        "feed": "Teaching Machines",
         "title": "New Blog",
-        "link": "http://research.hackeducation.com/2015/12/25/new-blog",
+        "link": "http://teachingmachin.es/2015/12/25/new-blog",
         "pubDate": "12/25/2015"
     },
     {
@@ -112,6 +94,42 @@
         "title": "New Blog",
         "link": "http://writing.hackeducation.com/2015/12/25/new-blog",
         "pubDate": "12/25/2015"
+    },
+    {
+        "feed": "Horizon Report Data Liberation Project",
+        "title": "The Latest Higher Ed Horizons",
+        "link": "http://horizon.hackeducation.com/2016/02/06/latest-higher-ed-horizons",
+        "pubDate": "02/06/2016"
+    },
+    {
+        "feed": "Horizon Report Data Liberation Project",
+        "title": "New Project",
+        "link": "http://horizon.hackeducation.com/2015/01/03/new-project",
+        "pubDate": "01/03/2015"
+    },
+    {
+        "feed": "Ed-Tech and Science Fiction",
+        "title": "A New Project",
+        "link": "http://sf.hackeducation.com/2015/12/26/a-new-project",
+        "pubDate": "12/26/2015"
+    },
+    {
+        "feed": "Hack Education Weekly Newsletters",
+        "title": "Update to Newsletter Project",
+        "link": "http://news.hackeducation.com/2016/03/06/update-project",
+        "pubDate": "03/05/2016"
+    },
+    {
+        "feed": "Hack Education Weekly Newsletters",
+        "title": "All the Newsletters (2015)",
+        "link": "http://news.hackeducation.com/2015/11/24/newsletters",
+        "pubDate": "11/23/2015"
+    },
+    {
+        "feed": "Hack Education Weekly Newsletters",
+        "title": "Hack Education Weekly News",
+        "link": "http://news.hackeducation.com/2015/03/14/newsletter",
+        "pubDate": "03/14/2015"
     },
     {
         "feed": "Ed-Tech Industry Matrix",
@@ -198,21 +216,153 @@
         "pubDate": "12/26/2015"
     },
     {
-        "feed": "Top Ed-Tech Trends of 2016",
-        "title": "Trend to Watch: Disrupting Procurement",
-        "link": "http://2016trends.hackeducation.com/2016/03/08/procurement",
-        "pubDate": "03/08/2016"
+        "feed": "Pigeons... Click",
+        "title": "The Arc of the Ed-Tech Universe",
+        "link": "http://pigeons.click/2015/12/26/arc",
+        "pubDate": "12/26/2015"
     },
     {
-        "feed": "Top Ed-Tech Trends of 2016",
-        "title": "The View from Mid-February",
-        "link": "http://2016trends.hackeducation.com/2016/02/16/february-thoughts",
-        "pubDate": "02/16/2016"
-    },
-    {
-        "feed": "Top Ed-Tech Trends of 2016",
-        "title": "New Project",
-        "link": "http://2016trends.hackeducation.com/2015/12/24/new-project",
+        "feed": "Pigeons... Click",
+        "title": "Semi-Read Your Mind",
+        "link": "http://pigeons.click/2015/12/24/read",
         "pubDate": "12/24/2015"
+    },
+    {
+        "feed": "Pigeons... Click",
+        "title": "A New Project",
+        "link": "http://pigeons.click/2015/12/24/a-new-project",
+        "pubDate": "12/24/2015"
+    },
+    {
+        "feed": "Top Ed-Tech Trends of 2015",
+        "title": "Notes from 'The Business of Ed-Tech'",
+        "link": "http://2015trends.hackeducation.com/2015/12/23/business-scraps",
+        "pubDate": "12/23/2015"
+    },
+    {
+        "feed": "Top Ed-Tech Trends of 2015",
+        "title": "Notes from 'Indie Ed-Tech'",
+        "link": "http://2015trends.hackeducation.com/2015/12/21/indie-scraps",
+        "pubDate": "12/21/2015"
+    },
+    {
+        "feed": "Top Ed-Tech Trends of 2015",
+        "title": "Notes from 'Social Media, Campus Activism, and Free Speech'",
+        "link": "http://2015trends.hackeducation.com/2015/12/19/activism-scraps",
+        "pubDate": "12/19/2015"
+    },
+    {
+        "feed": "Top Ed-Tech Trends of 2015",
+        "title": "Notes from 'The Compulsion for Data'",
+        "link": "http://2015trends.hackeducation.com/2015/12/16/data-scraps",
+        "pubDate": "12/16/2015"
+    },
+    {
+        "feed": "Top Ed-Tech Trends of 2015",
+        "title": "Notes from 'Beyond the MOOC'",
+        "link": "http://2015trends.hackeducation.com/2015/12/14/moocs-scraps",
+        "pubDate": "12/14/2015"
+    },
+    {
+        "feed": "Top Ed-Tech Trends of 2015",
+        "title": "Notes from 'The Collapse of For-Profit Higher Education'",
+        "link": "http://2015trends.hackeducation.com/2015/12/12/for-profits-scraps",
+        "pubDate": "12/12/2015"
+    },
+    {
+        "feed": "Top Ed-Tech Trends of 2015",
+        "title": "Notes from 'Credits and Credentialing'",
+        "link": "http://2015trends.hackeducation.com/2015/12/09/credentials-scraps",
+        "pubDate": "12/09/2015"
+    },
+    {
+        "feed": "Top Ed-Tech Trends of 2015",
+        "title": "Notes from 'The Employability Narrative'",
+        "link": "http://2015trends.hackeducation.com/2015/12/07/skills-scraps",
+        "pubDate": "12/07/2015"
+    },
+    {
+        "feed": "Top Ed-Tech Trends of 2015",
+        "title": "Notes from 'Standardized Testing'",
+        "link": "http://2015trends.hackeducation.com/2015/12/05/testing-scraps",
+        "pubDate": "12/05/2015"
+    },
+    {
+        "feed": "Top Ed-Tech Trends of 2015",
+        "title": "Notes from 'The Politics of Education Technology'",
+        "link": "http://2015trends.hackeducation.com/2015/12/02/politics-scraps",
+        "pubDate": "12/02/2015"
+    },
+    {
+        "feed": "Top Ed-Tech Trends of 2014",
+        "title": "New Blog",
+        "link": "http://2014trends.hackeducation.com/2015/12/24/new-blog",
+        "pubDate": "12/24/2015"
+    },
+    {
+        "feed": "Top Ed-Tech Trends of 2013",
+        "title": "New Blog",
+        "link": "http://2013trends.hackeducation.com/2015/12/24/new-blog",
+        "pubDate": "12/24/2015"
+    },
+    {
+        "feed": "Top Ed-Tech Trends of 2012",
+        "title": "New Blog",
+        "link": "http://2012trends.hackeducation.com/2015/12/24/new-blog",
+        "pubDate": "12/24/2015"
+    },
+    {
+        "feed": "Top Ed-Tech Trends of 2011",
+        "title": "New Blog",
+        "link": "http://2011trends.hackeducation.com/2015/12/24/new-blog",
+        "pubDate": "12/24/2015"
+    },
+    {
+        "feed": "Top Ed-Tech Trends of 2010",
+        "title": "New Blog",
+        "link": "http://2010trends.hackeducation.com/2015/12/24/new-blog",
+        "pubDate": "12/24/2015"
+    },
+    {
+        "feed": "The Monsters of Education Technology",
+        "title": "New Blog",
+        "link": "http://monsters.hackeducation.com/2015/12/25/new-project",
+        "pubDate": "12/25/2015"
+    },
+    {
+        "feed": "The Revenge of the Monsters of Education Technology",
+        "title": "New Blog",
+        "link": "http://monsters2.hackeducation.com/2015/12/25/new-blog",
+        "pubDate": "12/25/2015"
+    },
+    {
+        "feed": "Claim Your Domain",
+        "title": "New Blog",
+        "link": "http://reclaim.hackeducation.com/2015/12/25/new-blog",
+        "pubDate": "12/25/2015"
+    },
+    {
+        "feed": "Audrey Watters",
+        "title": "My Week in Review",
+        "link": "http://audreywatters.com/2016/04/03/week-in-review",
+        "pubDate": "04/03/2016"
+    },
+    {
+        "feed": "Ed-Tech Research",
+        "title": "Blockchain, Continued",
+        "link": "http://research.hackeducation.com/2016/04/03/blockchain-continued",
+        "pubDate": "04/03/2016"
+    },
+    {
+        "feed": "Ed-Tech Research",
+        "title": "Blockchain",
+        "link": "http://research.hackeducation.com/2016/02/28/blockchain",
+        "pubDate": "02/28/2016"
+    },
+    {
+        "feed": "Ed-Tech Research",
+        "title": "New Blog",
+        "link": "http://research.hackeducation.com/2015/12/25/new-blog",
+        "pubDate": "12/25/2015"
     }
 ]
