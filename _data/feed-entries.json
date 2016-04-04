@@ -1,1 +1,218 @@
-[]
+[
+    {
+        "feed": "Audrey Watters",
+        "title": "My Week in Review",
+        "link": "http://audreywatters.com/2016/04/03/week-in-review",
+        "pubDate": "04/03/2016"
+    },
+    {
+        "feed": "Hack Education",
+        "title": "Hack Education Weekly News",
+        "link": "http://hackeducation.com/2016/04/01/hack-education-weekly-news",
+        "pubDate": "04/01/2016"
+    },
+    {
+        "feed": "Hack Education",
+        "title": "Roaming Autodidacts and Entrepreneurial (L)Earners: The Stories We Tell about Lifelong Learning",
+        "link": "http://hackeducation.com/2016/03/25/lifelong-learning-lol",
+        "pubDate": "03/25/2016"
+    },
+    {
+        "feed": "Hack Education",
+        "title": "'I Love My Label': Resisting the Pre-Packaged Sound in Ed-Tech",
+        "link": "http://hackeducation.com/2016/03/18/i-love-my-label",
+        "pubDate": "03/18/2016"
+    },
+    {
+        "feed": "Hack Education",
+        "title": "The Allure of 'Matrix-Style Learning'",
+        "link": "http://hackeducation.com/2016/03/02/matrix",
+        "pubDate": "03/02/2016"
+    },
+    {
+        "feed": "Hack Education",
+        "title": "Blockchain for Education: A Research Project",
+        "link": "http://hackeducation.com/2016/02/25/blockchain-edu1",
+        "pubDate": "02/25/2016"
+    },
+    {
+        "feed": "Hack Education Weekly Newsletters",
+        "title": "Update to Newsletter Project",
+        "link": "http://news.hackeducation.com/2016/03/06/update-project",
+        "pubDate": "03/05/2016"
+    },
+    {
+        "feed": "Hack Education Weekly Newsletters",
+        "title": "All the Newsletters (2015)",
+        "link": "http://news.hackeducation.com/2015/11/24/newsletters",
+        "pubDate": "11/23/2015"
+    },
+    {
+        "feed": "Hack Education Weekly Newsletters",
+        "title": "Hack Education Weekly News",
+        "link": "http://news.hackeducation.com/2015/03/14/newsletter",
+        "pubDate": "03/14/2015"
+    },
+    {
+        "feed": "Ed-Tech Funding",
+        "title": "March 2016 Ed-Tech Funding Data",
+        "link": "http://funding.hackeducation.com/2016/03/31/march",
+        "pubDate": "03/31/2016"
+    },
+    {
+        "feed": "Ed-Tech Funding",
+        "title": "February 2016 Ed-Tech Funding Data",
+        "link": "http://funding.hackeducation.com/2016/02/29/february",
+        "pubDate": "02/29/2016"
+    },
+    {
+        "feed": "Ed-Tech Funding",
+        "title": "January 2016 Ed-Tech Funding",
+        "link": "http://funding.hackeducation.com/2016/02/02/january",
+        "pubDate": "02/02/2016"
+    },
+    {
+        "feed": "Ed-Tech Funding",
+        "title": "2015 Ed-Tech Funding",
+        "link": "http://funding.hackeducation.com/2015/12/28/the-end",
+        "pubDate": "12/28/2015"
+    },
+    {
+        "feed": "Ed-Tech Funding",
+        "title": "New Project",
+        "link": "http://funding.hackeducation.com/2015/12/25/new-project",
+        "pubDate": "12/25/2015"
+    },
+    {
+        "feed": "Ed-Tech Research",
+        "title": "Blockchain, Continued",
+        "link": "http://research.hackeducation.com/2016/04/03/blockchain-continued",
+        "pubDate": "04/03/2016"
+    },
+    {
+        "feed": "Ed-Tech Research",
+        "title": "Blockchain",
+        "link": "http://research.hackeducation.com/2016/02/28/blockchain",
+        "pubDate": "02/28/2016"
+    },
+    {
+        "feed": "Ed-Tech Research",
+        "title": "New Blog",
+        "link": "http://research.hackeducation.com/2015/12/25/new-blog",
+        "pubDate": "12/25/2015"
+    },
+    {
+        "feed": "The Best of Hack Education (Speeches)",
+        "title": "New Blog",
+        "link": "http://speaking.hackeducation.com/2015/12/25/new-blog",
+        "pubDate": "12/25/2015"
+    },
+    {
+        "feed": "The Best of Hack Education (Writing)",
+        "title": "New Blog",
+        "link": "http://writing.hackeducation.com/2015/12/25/new-blog",
+        "pubDate": "12/25/2015"
+    },
+    {
+        "feed": "Ed-Tech Industry Matrix",
+        "title": "2015 Ed-Tech Funding",
+        "link": "http://matrix.hackeducation.com/2015/12/28/the-end",
+        "pubDate": "12/28/2015"
+    },
+    {
+        "feed": "Ed-Tech Industry Matrix",
+        "title": "Ed-Tech Funding: November 2015",
+        "link": "http://matrix.hackeducation.com/2015/11/27/ytd-funding",
+        "pubDate": "11/27/2015"
+    },
+    {
+        "feed": "Ed-Tech Industry Matrix",
+        "title": "Ed-Tech Funding: The Halloween Edition",
+        "link": "http://matrix.hackeducation.com/2015/10/31/ytd-funding",
+        "pubDate": "10/31/2015"
+    },
+    {
+        "feed": "Ed-Tech Industry Matrix",
+        "title": "Ed-Tech Funding: The Year So Far (Sorta)",
+        "link": "http://matrix.hackeducation.com/2015/09/30/ytd-funding",
+        "pubDate": "09/30/2015"
+    },
+    {
+        "feed": "Ed-Tech Industry Matrix",
+        "title": "Ed-Tech Funding: The Year (The Data) So Far",
+        "link": "http://matrix.hackeducation.com/2015/07/31/ytd-funding",
+        "pubDate": "07/31/2015"
+    },
+    {
+        "feed": "Ed-Tech Industry Matrix",
+        "title": "Ed-Tech Startup Funding (The Year So Far)",
+        "link": "http://matrix.hackeducation.com/2015/05/01/funding",
+        "pubDate": "05/01/2015"
+    },
+    {
+        "feed": "Ed-Tech Industry Matrix",
+        "title": "Ed-Tech Startup Funding (Q1 2015)",
+        "link": "http://matrix.hackeducation.com/2015/04/03/ed-tech-funding-q12015",
+        "pubDate": "04/03/2015"
+    },
+    {
+        "feed": "Ed-Tech Industry Matrix",
+        "title": "Who's Investing in Ed-Tech? (2015)",
+        "link": "http://matrix.hackeducation.com/2015/02/05/whos-investing-in-ed-tech",
+        "pubDate": "02/05/2015"
+    },
+    {
+        "feed": "Ed-Tech Industry Matrix",
+        "title": "Ed-Tech Investments: January 2015",
+        "link": "http://matrix.hackeducation.com/2015/01/31/ed-tech-investments-january",
+        "pubDate": "01/31/2015"
+    },
+    {
+        "feed": "Ed-Tech Industry Matrix",
+        "title": "Ed-Tech Startup Funding 2015",
+        "link": "http://matrix.hackeducation.com/2015/01/04/ed-tech-startup-funding-2015",
+        "pubDate": "01/04/2015"
+    },
+    {
+        "feed": "Ed-Tech Guide",
+        "title": "Updates to 'What Teachers Should Know'",
+        "link": "http://guide.hackeducation.com/2015/12/27/updates-what-teachers",
+        "pubDate": "12/27/2015"
+    },
+    {
+        "feed": "Ed-Tech Guide",
+        "title": "Updates to 'What Technologists Should Know'",
+        "link": "http://guide.hackeducation.com/2015/12/27/updates-what-techies",
+        "pubDate": "12/27/2015"
+    },
+    {
+        "feed": "Ed-Tech, WTF",
+        "title": "Updated",
+        "link": "http://edtech.wtf/2016/02/09/updated",
+        "pubDate": "02/09/2016"
+    },
+    {
+        "feed": "Ed-Tech, WTF",
+        "title": "A New Project",
+        "link": "http://edtech.wtf/2015/12/26/a-new-project",
+        "pubDate": "12/26/2015"
+    },
+    {
+        "feed": "Top Ed-Tech Trends of 2016",
+        "title": "Trend to Watch: Disrupting Procurement",
+        "link": "http://2016trends.hackeducation.com/2016/03/08/procurement",
+        "pubDate": "03/08/2016"
+    },
+    {
+        "feed": "Top Ed-Tech Trends of 2016",
+        "title": "The View from Mid-February",
+        "link": "http://2016trends.hackeducation.com/2016/02/16/february-thoughts",
+        "pubDate": "02/16/2016"
+    },
+    {
+        "feed": "Top Ed-Tech Trends of 2016",
+        "title": "New Project",
+        "link": "http://2016trends.hackeducation.com/2015/12/24/new-project",
+        "pubDate": "12/24/2015"
+    }
+]
